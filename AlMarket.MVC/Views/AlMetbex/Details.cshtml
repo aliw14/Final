@@ -1,0 +1,77 @@
+﻿@using AlMarket.DAL.Entities;
+@model Food
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/almetbex-etrafli.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+
+    <section class="al-metbex-header-section detail-header p-0">
+        <div class="mexbex-partner-heading  text-center">
+            <img src="@Model.ImageUrl" alt="">
+            <div class="heading-text translate-middle position-absolute top-50 start-50 col-11 col-md-9 col-lg-9 col-xl-8 col-xxl-6">
+                <h4 class="heading mb-3">@Model.Name</h4>
+                <p class="text col-11 col-md-11 col-lg-10 col-xl-8 col-xxl-6 mx-auto"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-background al-metbex-detail-section pt-0">
+        <div class="background-image"></div>
+        <div class="container">
+            <div class="tarkıbı-main mb-5 mb-lg-0">
+                <div class="row g-0 g-lg-5">
+                    <div class="col-12 col-lg-6">
+                        <div class="left">
+                            <div class="swiper metbex-big-slider mb-3 ">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide swiper-slide-active swiper-slide-visible">
+                                        <img src="@Model.ImageUrl" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper metbex-thumb-slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden swiper-thumbs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide swiper-slide-thumb-active swiper-slide-visible swiper-slide-active">
+                                        <img style="    width: 156px;
+                                        height: 100px;
+                                        border-radius: 20px;" src="@Model.ImageUrl" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="right pt-1 pt-lg-5">
+                   
+                            <div class="pt-1 pt-lg-5 video-receipt">
+                                @Html.Raw(Model.Description)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hazırlanma-gaydası">
+                <p class="headings text-center mb-5">
+                    Hazırlanma qaydası:
+                </p>
+            </div>
+        </div>
+    </section>
+</body>

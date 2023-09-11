@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-background {
+  padding-top: 150px !important;
+  min-height: 100vh;
+  position: relative;
+  padding: calc(24px + 2.25vw) 0 calc(27px + 3.9375vw);
+}
+.section-background .background-image {
+  height: 100vh;
+  background-image: url(/images/background.png);
+  position: absolute;
+  top: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  z-index: -1;
+}
+.section-background .partner-text-main {
+  width: 40%;
+}
+.section-background .partner-text-main .heading {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: calc(21.6px + 0.9vw);
+  color: #f50023;
+}
+.section-background .partner-text-main .text {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  line-height: 22px;
+}
+.section-background .karyera-buttons .aos-init {
+  transition-delay: 0.2s;
+  opacity: 1;
+  transform: translateZ(0);
+  transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-property: opacity, transform;
+}
+.section-background .karyera-buttons .aos-init .btn {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid #f50023;
+  background-color: #fff;
+}
+.section-background .karyera-buttons .aos-init .btn h2 {
+  font-size: 18px;
+  margin: 22px 0 10px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #f50023;
+}
+.section-background .karyera-buttons .aos-init .btn p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+}
+.section-background .karyera-buttons .aos-init .btn:hover {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-color: #fff;
+  transition: 0.3s;
+}
+.section-background .vakansiya-main {
+  padding-top: calc(25px + 2.8125vw);
+  margin-bottom: 3rem !important;
+}
+.section-background .vakansiya-main .text-center {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: calc(20.4px + 0.225vw);
+  color: #000000;
+  margin-bottom: calc(22px + 1.125vw);
+}
+.section-background .vakansiya-main .karyera-search {
+  margin-bottom: 3rem !important;
+}
+.section-background .vakansiya-main .karyera-search .row {
+  display: flex;
+  flex-wrap: wrap;
+  --bs-gutter-y: 3rem;
+  --bs-gutter-x: 3rem;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-6 input {
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+  width: 100%;
+  padding-left: 40px;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-4 .dropdown {
+  position: relative;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-4 .dropdown .btn-partner {
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #d8d8d8;
+  color: #000000;
+  font-size: 18px;
+  background-color: #fff;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-4 .dropdown .btn-partner:hover {
+  border: 1px solid #f50023;
+  color: #f50023;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-4 .dropdown ul {
+  position: absolute;
+  inset: auto auto 0px 0px;
+  margin: 0px;
+  transform: translate3d(0px, -62px, 0px);
+  max-height: 235px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 100%;
+  overflow: auto;
+  top: 10%;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-4 .dropdown ul li {
+  cursor: pointer;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-4 .dropdown ul li:hover {
+  color: #f50023;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-2 .btn-search {
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #f50023;
+  background-color: #fff;
+  width: 100%;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-2 .btn-search i {
+  color: #f50023;
+  font-size: 22px;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-2 .btn-search:hover {
+  border: 1px solid #f50023;
+  background-color: #f50023;
+}
+.section-background .vakansiya-main .karyera-search .row .col-lg-2 .btn-search:hover i {
+  color: white;
+}
+.section-background .vakansiya-main .shuffle {
+  position: relative;
+  height: 288px;
+  transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  --bs-gutter-y: 3rem;
+  --bs-gutter-x: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-background .vakansiya-main .shuffle .col .vakansiya-card {
+  border-radius: 20px;
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+  display: block;
+  padding: calc(21px + 0.5625vw);
+  height: 240px;
+  text-decoration: none;
+}
+.section-background .vakansiya-main .shuffle .col .vakansiya-card .kasir {
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 16px;
+  color: #000;
+}
+.section-background .vakansiya-main .shuffle .col .vakansiya-card .text {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  color: #000;
+  margin-top: 19px;
+  -webkit-line-clamp: 2;
+}
+.section-background .vakansiya-main .shuffle .col .vakansiya-card .arrows {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  color: #000;
+  margin-top: calc(20.7px + 0.39375vw);
+}
+.section-background .vakansiya-main .shuffle .col .vakansiya-card:hover {
+  transition: 0.4s;
+  border: 1px solid #f50023;
+}
+.section-background .vakansiya-main .shuffle .col .vakansiya-card:hover .arrows {
+  color: #f50023;
+}
+
+@media (max-width: 576px) {
+  footer {
+    margin-top: 700px !important;
+  }
+  .section-background .partner-text-main .text {
+    width: 104% !important;
+    font-size: 16px !important;
+  }
+  .align-items-start {
+    align-items: center !important;
+  }
+  .partner-text-main {
+    width: 97% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .karyera-main {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .text {
+    width: 150%;
+  }
+  .karyera-buttons {
+    margin-left: 150px;
+  }
+  .vakansiya-card p {
+    width: 100%;
+  }
+  .menubar {
+    display: block !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .karyera-main {
+    background-color: transparent !important;
+  }
+  .text {
+    width: 150% !important;
+  }
+  .karyera-buttons {
+    margin-left: 150px !important;
+  }
+  .vakansiya-card p {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=karyera.css.map */

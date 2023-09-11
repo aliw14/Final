@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url(/images/background.png);
+    min-height: 100vh;
+    object-fit: cover;
+    position: relative;
+    padding: calc(24px + 2.25vw) 0 calc(27px + 3.9375vw);
+
+    p {
+        padding-bottom: 3rem !important;
+        margin-top: 135px !important;
+        font-size: 17px;
+        font-weight: 600;
+
+    }
+}
+
+.all {
+    width: 100%;
+    height: 8vh;
+}
+
+@media (max-width:576px) {
+    .haqqimizda-huquq-main {
+        .huquq-main {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .huquq-main {
+        img {
+            width: 100%;
+        }
+    }
+
+    .menubar {
+        display: block !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .huquq-main {
+        img {
+            width: 100%;
+        }
+    }
+}

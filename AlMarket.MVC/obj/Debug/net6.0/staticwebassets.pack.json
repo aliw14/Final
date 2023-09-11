@@ -1,0 +1,1717 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/css/maps/style.css.map",
+      "PackagePath": "staticwebassets/Admin/css/maps/style.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/css/style.css",
+      "PackagePath": "staticwebassets/Admin/css/style.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Black.eot",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Black.eot"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Black.ttf",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Black.ttf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Black.woff",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Black.woff"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Black.woff2",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Black.woff2"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Bold.eot",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Bold.eot"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Bold.ttf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Bold.woff",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Bold.woff"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Bold.woff2"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Light.eot",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Light.eot"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Light.ttf",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Light.ttf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Light.woff",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Light.woff"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Light.woff2",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Light.woff2"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Medium.eot",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Medium.eot"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Medium.ttf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Medium.woff",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Medium.woff"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Medium.woff2"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Regular.eot",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Regular.eot"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Regular.ttf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Regular.woff",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Regular.woff"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/fonts/Roboto/Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets/Admin/fonts/Roboto/Roboto-Regular.woff2"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/auth/lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets/Admin/images/auth/lockscreen-bg.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/auth/login-bg.jpg",
+      "PackagePath": "staticwebassets/Admin/images/auth/login-bg.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/auth/register-bg.jpg",
+      "PackagePath": "staticwebassets/Admin/images/auth/register-bg.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face1.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face10.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face11.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face11.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face12.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face12.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face13.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face13.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face14.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face14.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face15.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face15.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face16.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face16.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face17.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face17.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face18.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face18.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face19.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face19.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face2.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face20.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face20.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face21.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face21.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face22.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face22.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face23.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face23.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face24.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face24.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face25.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face25.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face26.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face26.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face27.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face27.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face3.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face4.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face5.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face5.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face6.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face7.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face7.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face8.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/faces/face9.jpg",
+      "PackagePath": "staticwebassets/Admin/images/faces/face9.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/favicon.png",
+      "PackagePath": "staticwebassets/Admin/images/favicon.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/logo-mini.svg",
+      "PackagePath": "staticwebassets/Admin/images/logo-mini.svg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/images/logo.svg",
+      "PackagePath": "staticwebassets/Admin/images/logo.svg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/Chart.min.js",
+      "PackagePath": "staticwebassets/Admin/js/Chart.min.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/chart.js",
+      "PackagePath": "staticwebassets/Admin/js/chart.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/dashboard.js",
+      "PackagePath": "staticwebassets/Admin/js/dashboard.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/data-table.js",
+      "PackagePath": "staticwebassets/Admin/js/data-table.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets/Admin/js/dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/documentation.js",
+      "PackagePath": "staticwebassets/Admin/js/documentation.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/file-upload.js",
+      "PackagePath": "staticwebassets/Admin/js/file-upload.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/hoverable-collapse.js",
+      "PackagePath": "staticwebassets/Admin/js/hoverable-collapse.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/jquery.dataTables.js",
+      "PackagePath": "staticwebassets/Admin/js/jquery.dataTables.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/off-canvas.js",
+      "PackagePath": "staticwebassets/Admin/js/off-canvas.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/tabs.js",
+      "PackagePath": "staticwebassets/Admin/js/tabs.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/js/template.js",
+      "PackagePath": "staticwebassets/Admin/js/template.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/base/vendor.bundle.base.css",
+      "PackagePath": "staticwebassets/Admin/vendors/base/vendor.bundle.base.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/base/vendor.bundle.base.js",
+      "PackagePath": "staticwebassets/Admin/vendors/base/vendor.bundle.base.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/chart.js/Chart.min.js",
+      "PackagePath": "staticwebassets/Admin/vendors/chart.js/Chart.min.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets/Admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets/Admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/datatables.net/jquery.dataTables.js",
+      "PackagePath": "staticwebassets/Admin/vendors/datatables.net/jquery.dataTables.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/mdi/css/materialdesignicons.min.css",
+      "PackagePath": "staticwebassets/Admin/vendors/mdi/css/materialdesignicons.min.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/mdi/fonts/materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets/Admin/vendors/mdi/fonts/materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/mdi/fonts/materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets/Admin/vendors/mdi/fonts/materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/mdi/fonts/materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets/Admin/vendors/mdi/fonts/materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/mdi/fonts/materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets/Admin/vendors/mdi/fonts/materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/Admin/vendors/mdi/fonts/materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets/Admin/vendors/mdi/fonts/materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/bootstrap.css",
+      "PackagePath": "staticwebassets/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/al-media-etrafli.css",
+      "PackagePath": "staticwebassets/css/al-media-etrafli.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/al-media-etrafli.css.map",
+      "PackagePath": "staticwebassets/css/al-media-etrafli.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/al-media-etrafli.scss",
+      "PackagePath": "staticwebassets/css/al-media-etrafli.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/al-media.css",
+      "PackagePath": "staticwebassets/css/al-media.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/al-media.css.map",
+      "PackagePath": "staticwebassets/css/al-media.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/al-media.scss",
+      "PackagePath": "staticwebassets/css/al-media.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/almetbex-etrafli.css",
+      "PackagePath": "staticwebassets/css/almetbex-etrafli.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/almetbex-etrafli.css.map",
+      "PackagePath": "staticwebassets/css/almetbex-etrafli.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/almetbex-etrafli.scss",
+      "PackagePath": "staticwebassets/css/almetbex-etrafli.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/almetbex.css",
+      "PackagePath": "staticwebassets/css/almetbex.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/almetbex.css.map",
+      "PackagePath": "staticwebassets/css/almetbex.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/almetbex.scss",
+      "PackagePath": "staticwebassets/css/almetbex.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/bizeyazin.css",
+      "PackagePath": "staticwebassets/css/bizeyazin.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/bizeyazin.css.map",
+      "PackagePath": "staticwebassets/css/bizeyazin.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/bizeyazin.scss",
+      "PackagePath": "staticwebassets/css/bizeyazin.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/bizkimik.css",
+      "PackagePath": "staticwebassets/css/bizkimik.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/bizkimik.css.map",
+      "PackagePath": "staticwebassets/css/bizkimik.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/bizkimik.scss",
+      "PackagePath": "staticwebassets/css/bizkimik.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/ekskluziv.css",
+      "PackagePath": "staticwebassets/css/ekskluziv.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/ekskluziv.css.map",
+      "PackagePath": "staticwebassets/css/ekskluziv.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/ekskluziv.scss",
+      "PackagePath": "staticwebassets/css/ekskluziv.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/huquq.css",
+      "PackagePath": "staticwebassets/css/huquq.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/huquq.css.map",
+      "PackagePath": "staticwebassets/css/huquq.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/huquq.scss",
+      "PackagePath": "staticwebassets/css/huquq.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/karyera-etrafli.css",
+      "PackagePath": "staticwebassets/css/karyera-etrafli.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/karyera-etrafli.css.map",
+      "PackagePath": "staticwebassets/css/karyera-etrafli.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/karyera-etrafli.scss",
+      "PackagePath": "staticwebassets/css/karyera-etrafli.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/karyera.css",
+      "PackagePath": "staticwebassets/css/karyera.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/karyera.css.map",
+      "PackagePath": "staticwebassets/css/karyera.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/karyera.scss",
+      "PackagePath": "staticwebassets/css/karyera.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/kataloq.css",
+      "PackagePath": "staticwebassets/css/kataloq.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/kataloq.css.map",
+      "PackagePath": "staticwebassets/css/kataloq.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/kataloq.scss",
+      "PackagePath": "staticwebassets/css/kataloq.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/mehsullar-etrafli.css",
+      "PackagePath": "staticwebassets/css/mehsullar-etrafli.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/mehsullar-etrafli.css.map",
+      "PackagePath": "staticwebassets/css/mehsullar-etrafli.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/mehsullar-etrafli.scss",
+      "PackagePath": "staticwebassets/css/mehsullar-etrafli.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/mehsullar.css",
+      "PackagePath": "staticwebassets/css/mehsullar.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/mehsullar.css.map",
+      "PackagePath": "staticwebassets/css/mehsullar.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/mehsullar.scss",
+      "PackagePath": "staticwebassets/css/mehsullar.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/online-muraciet.css",
+      "PackagePath": "staticwebassets/css/online-muraciet.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/online-muraciet.css.map",
+      "PackagePath": "staticwebassets/css/online-muraciet.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/online-muraciet.scss",
+      "PackagePath": "staticwebassets/css/online-muraciet.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/style.css.map",
+      "PackagePath": "staticwebassets/css/style.css.map"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/css/style.scss",
+      "PackagePath": "staticwebassets/css/style.scss"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/cv.pdf",
+      "PackagePath": "staticwebassets/cv.pdf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/0708066b-40cd-4469-8fb3-7db2f7e3c540-horss2.jpg",
+      "PackagePath": "staticwebassets/images/0708066b-40cd-4469-8fb3-7db2f7e3c540-horss2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/0de7a188-de4d-4444-861d-e0f63ef81daf-al-media10.jpg",
+      "PackagePath": "staticwebassets/images/0de7a188-de4d-4444-861d-e0f63ef81daf-al-media10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/0ee16107-b6f9-4756-85fd-351eaaa2c553-al-media6.jpg",
+      "PackagePath": "staticwebassets/images/0ee16107-b6f9-4756-85fd-351eaaa2c553-al-media6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/17db60f5-fdd6-437c-b8d5-4f9553ae5285-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/17db60f5-fdd6-437c-b8d5-4f9553ae5285-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/1b2eb2b4-dd8c-4fd7-9dbb-31ccabce2679-al-media7.jpg",
+      "PackagePath": "staticwebassets/images/1b2eb2b4-dd8c-4fd7-9dbb-31ccabce2679-al-media7.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/20f052d2-6627-4e1a-b1fd-aa76120ac185-al-media1.jpg",
+      "PackagePath": "staticwebassets/images/20f052d2-6627-4e1a-b1fd-aa76120ac185-al-media1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/25114eed-2814-408e-9162-44efe5ca2a36-al-media7.jpg",
+      "PackagePath": "staticwebassets/images/25114eed-2814-408e-9162-44efe5ca2a36-al-media7.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/2a048ba7-24ca-4f74-9294-ef182b6ee96e-sponsor21.png",
+      "PackagePath": "staticwebassets/images/2a048ba7-24ca-4f74-9294-ef182b6ee96e-sponsor21.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/2b4aa9f8-3a9e-435a-a56e-3522804f5f20-sponsor1.png",
+      "PackagePath": "staticwebassets/images/2b4aa9f8-3a9e-435a-a56e-3522804f5f20-sponsor1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/2b9fe16e-fc12-4b5c-9333-42c298397b1d-4a5d235be1.png",
+      "PackagePath": "staticwebassets/images/2b9fe16e-fc12-4b5c-9333-42c298397b1d-4a5d235be1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/2dd8b494-a55a-4803-b7b9-a970077c696c-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/2dd8b494-a55a-4803-b7b9-a970077c696c-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/2f845b36-08dd-4a5b-a151-dff35a90d6af-al-media8.jpg",
+      "PackagePath": "staticwebassets/images/2f845b36-08dd-4a5b-a151-dff35a90d6af-al-media8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/366da8e6-5b08-452f-872e-da7b2f9047da-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/366da8e6-5b08-452f-872e-da7b2f9047da-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/3c571de9-660c-4d3a-bd0f-eaaf996e159e-al-media2.png",
+      "PackagePath": "staticwebassets/images/3c571de9-660c-4d3a-bd0f-eaaf996e159e-al-media2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/453b9a14-c0a1-4bcc-969d-e0acff2a5c01-al-media6.jpg",
+      "PackagePath": "staticwebassets/images/453b9a14-c0a1-4bcc-969d-e0acff2a5c01-al-media6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/493093ed-140a-4677-a833-6509c3bb1a12-al-media12.jpg",
+      "PackagePath": "staticwebassets/images/493093ed-140a-4677-a833-6509c3bb1a12-al-media12.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/4cbc7032-f062-45b3-ab00-f121fba1a9f9-al-media8.jpg",
+      "PackagePath": "staticwebassets/images/4cbc7032-f062-45b3-ab00-f121fba1a9f9-al-media8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/5232bf54-f604-419c-8f46-49dd1d69ece1-al-logo.png",
+      "PackagePath": "staticwebassets/images/5232bf54-f604-419c-8f46-49dd1d69ece1-al-logo.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/5365a1b9-96da-4906-8ccb-8da12e422900-al-media2.png",
+      "PackagePath": "staticwebassets/images/5365a1b9-96da-4906-8ccb-8da12e422900-al-media2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/591dc3fe-a73e-4df1-b3e4-4df22d7925ba-al-media10.jpg",
+      "PackagePath": "staticwebassets/images/591dc3fe-a73e-4df1-b3e4-4df22d7925ba-al-media10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/5dcdf14d-cd06-49c0-854f-dcc65e8ba2ea-al-logo.png",
+      "PackagePath": "staticwebassets/images/5dcdf14d-cd06-49c0-854f-dcc65e8ba2ea-al-logo.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/60ff7067-11f1-41cd-b407-18fe376622b3-al-media11.jpg",
+      "PackagePath": "staticwebassets/images/60ff7067-11f1-41cd-b407-18fe376622b3-al-media11.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/6697274a-de86-4d7c-a2a2-79a6679c1351-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/6697274a-de86-4d7c-a2a2-79a6679c1351-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/69c4d764-771a-45c6-8e3a-3f12ccbc8874-al-media3.png",
+      "PackagePath": "staticwebassets/images/69c4d764-771a-45c6-8e3a-3f12ccbc8874-al-media3.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/69e34dfd-ff8b-481e-8577-92c83d1cb8ba-al-media8.jpg",
+      "PackagePath": "staticwebassets/images/69e34dfd-ff8b-481e-8577-92c83d1cb8ba-al-media8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/6c186bc3-44e7-4c74-b7df-9ee6aa3c70d6-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/6c186bc3-44e7-4c74-b7df-9ee6aa3c70d6-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/7cd43d29-f207-4c15-9918-a61160b6116a-al-media8.jpg",
+      "PackagePath": "staticwebassets/images/7cd43d29-f207-4c15-9918-a61160b6116a-al-media8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/84b4669f-138d-45dd-bec4-cd173ef6fe66-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/84b4669f-138d-45dd-bec4-cd173ef6fe66-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/8a129676-8f09-4f7d-9b56-37cf25b40232-al-media8.jpg",
+      "PackagePath": "staticwebassets/images/8a129676-8f09-4f7d-9b56-37cf25b40232-al-media8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/8ab5d58b-0d5c-4d9f-b661-3cc8f6d9c630-0c10703295.png",
+      "PackagePath": "staticwebassets/images/8ab5d58b-0d5c-4d9f-b661-3cc8f6d9c630-0c10703295.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/8fefd058-c6c0-4617-9bd2-00c935072972-al-media1.jpg",
+      "PackagePath": "staticwebassets/images/8fefd058-c6c0-4617-9bd2-00c935072972-al-media1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/9a82cfad-ae25-4101-bbf1-0a219914a39b-c7946b1550.png",
+      "PackagePath": "staticwebassets/images/9a82cfad-ae25-4101-bbf1-0a219914a39b-c7946b1550.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/9fbf6d83-c66e-483d-bab6-edd573fb1d2c-acilis2.jpg",
+      "PackagePath": "staticwebassets/images/9fbf6d83-c66e-483d-bab6-edd573fb1d2c-acilis2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/a0bdaa90-dc50-46ec-bfca-76ad2d7fa620-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/a0bdaa90-dc50-46ec-bfca-76ad2d7fa620-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/a9c9437e-456e-41f4-9868-c0b4cb61a69c-al-media5.png",
+      "PackagePath": "staticwebassets/images/a9c9437e-456e-41f4-9868-c0b4cb61a69c-al-media5.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/aaa2c0e0-776c-4712-81c0-ba84614eb09e-al-media8.jpg",
+      "PackagePath": "staticwebassets/images/aaa2c0e0-776c-4712-81c0-ba84614eb09e-al-media8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/acilis1.jpg",
+      "PackagePath": "staticwebassets/images/acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/acilis2.jpg",
+      "PackagePath": "staticwebassets/images/acilis2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/acilis3.jpg",
+      "PackagePath": "staticwebassets/images/acilis3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/acilis4.jpg",
+      "PackagePath": "staticwebassets/images/acilis4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/af79314b-19df-47ac-88e3-46a1d6e4b7ae-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/af79314b-19df-47ac-88e3-46a1d6e4b7ae-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-logo.png",
+      "PackagePath": "staticwebassets/images/al-logo.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-media10.jpg",
+      "PackagePath": "staticwebassets/images/al-media10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-media11.jpg",
+      "PackagePath": "staticwebassets/images/al-media11.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-media12.jpg",
+      "PackagePath": "staticwebassets/images/al-media12.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-media3.png",
+      "PackagePath": "staticwebassets/images/al-media3.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-media4.jpg",
+      "PackagePath": "staticwebassets/images/al-media4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-media5.png",
+      "PackagePath": "staticwebassets/images/al-media5.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-media6.jpg",
+      "PackagePath": "staticwebassets/images/al-media6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-media8.jpg",
+      "PackagePath": "staticwebassets/images/al-media8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/al-media9.jpg",
+      "PackagePath": "staticwebassets/images/al-media9.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/b1611c0c-8056-4ff8-a8c3-376878c94d97-al-media10.jpg",
+      "PackagePath": "staticwebassets/images/b1611c0c-8056-4ff8-a8c3-376878c94d97-al-media10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/b880a7a8-fc59-443e-ad8a-b9290aaab363-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/b880a7a8-fc59-443e-ad8a-b9290aaab363-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/background.png",
+      "PackagePath": "staticwebassets/images/background.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bf3aca80-a4a4-4fc0-9840-ca0dbf951f0d-al-logo.png",
+      "PackagePath": "staticwebassets/images/bf3aca80-a4a4-4fc0-9840-ca0dbf951f0d-al-logo.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan1.png",
+      "PackagePath": "staticwebassets/images/bizimbostan1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan10.png",
+      "PackagePath": "staticwebassets/images/bizimbostan10.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan11.png",
+      "PackagePath": "staticwebassets/images/bizimbostan11.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan12.png",
+      "PackagePath": "staticwebassets/images/bizimbostan12.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan13.png",
+      "PackagePath": "staticwebassets/images/bizimbostan13.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan14.png",
+      "PackagePath": "staticwebassets/images/bizimbostan14.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan2.png",
+      "PackagePath": "staticwebassets/images/bizimbostan2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan3.png",
+      "PackagePath": "staticwebassets/images/bizimbostan3.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan4.png",
+      "PackagePath": "staticwebassets/images/bizimbostan4.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan5.png",
+      "PackagePath": "staticwebassets/images/bizimbostan5.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan6.png",
+      "PackagePath": "staticwebassets/images/bizimbostan6.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan7.png",
+      "PackagePath": "staticwebassets/images/bizimbostan7.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan8.png",
+      "PackagePath": "staticwebassets/images/bizimbostan8.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimbostan9.png",
+      "PackagePath": "staticwebassets/images/bizimbostan9.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud1.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud10.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud11.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud11.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud12.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud12.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud13.png",
+      "PackagePath": "staticwebassets/images/bizimsud13.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud14.png",
+      "PackagePath": "staticwebassets/images/bizimsud14.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud15.png",
+      "PackagePath": "staticwebassets/images/bizimsud15.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud16.png",
+      "PackagePath": "staticwebassets/images/bizimsud16.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud17.png",
+      "PackagePath": "staticwebassets/images/bizimsud17.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud18.png",
+      "PackagePath": "staticwebassets/images/bizimsud18.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud19.png",
+      "PackagePath": "staticwebassets/images/bizimsud19.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud2.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud20.png",
+      "PackagePath": "staticwebassets/images/bizimsud20.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud21.png",
+      "PackagePath": "staticwebassets/images/bizimsud21.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud3.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud4.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud5.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud5.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud6.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud7.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud7.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud8.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bizimsud9.jpg",
+      "PackagePath": "staticwebassets/images/bizimsud9.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono1.jpg",
+      "PackagePath": "staticwebassets/images/bono1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono10.png",
+      "PackagePath": "staticwebassets/images/bono10.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono11.png",
+      "PackagePath": "staticwebassets/images/bono11.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono12.png",
+      "PackagePath": "staticwebassets/images/bono12.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono2.jpg",
+      "PackagePath": "staticwebassets/images/bono2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono3.jpg",
+      "PackagePath": "staticwebassets/images/bono3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono4.jpg",
+      "PackagePath": "staticwebassets/images/bono4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono5.jpg",
+      "PackagePath": "staticwebassets/images/bono5.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono6.jpg",
+      "PackagePath": "staticwebassets/images/bono6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono7.png",
+      "PackagePath": "staticwebassets/images/bono7.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono8.png",
+      "PackagePath": "staticwebassets/images/bono8.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/bono9.png",
+      "PackagePath": "staticwebassets/images/bono9.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/c504cd85-bf31-4d38-9a24-317831e1db53-al-media1.jpg",
+      "PackagePath": "staticwebassets/images/c504cd85-bf31-4d38-9a24-317831e1db53-al-media1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/c61d1ac2-6a63-41e9-b3e5-a914125017c0-al-media4.jpg",
+      "PackagePath": "staticwebassets/images/c61d1ac2-6a63-41e9-b3e5-a914125017c0-al-media4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/c733b6c4-cf5b-492f-8881-f15a484738a4-0a7e309449.png",
+      "PackagePath": "staticwebassets/images/c733b6c4-cf5b-492f-8881-f15a484738a4-0a7e309449.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/cataloge-three.jpg",
+      "PackagePath": "staticwebassets/images/cataloge-three.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/cataloge-two.jpg",
+      "PackagePath": "staticwebassets/images/cataloge-two.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/cf9b1bd5-311e-443d-990f-e659bf0cfab7-al-media9.jpg",
+      "PackagePath": "staticwebassets/images/cf9b1bd5-311e-443d-990f-e659bf0cfab7-al-media9.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/dadal1.jpg",
+      "PackagePath": "staticwebassets/images/dadal1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/dbb9b0cb-059b-448a-a71d-41d6d4c2531e-qida4.jpg",
+      "PackagePath": "staticwebassets/images/dbb9b0cb-059b-448a-a71d-41d6d4c2531e-qida4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/dee1a161-20f2-42ff-92c8-640d3c038369-sponsor1.png",
+      "PackagePath": "staticwebassets/images/dee1a161-20f2-42ff-92c8-640d3c038369-sponsor1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/deyirman1.png",
+      "PackagePath": "staticwebassets/images/deyirman1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/deyirman2.png",
+      "PackagePath": "staticwebassets/images/deyirman2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/e034e6d9-51af-4c5e-829b-94f446b90948-al-media4.jpg",
+      "PackagePath": "staticwebassets/images/e034e6d9-51af-4c5e-829b-94f446b90948-al-media4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/e44483a9-4f51-4466-b45a-e141d3fdbd18-al-media8.jpg",
+      "PackagePath": "staticwebassets/images/e44483a9-4f51-4466-b45a-e141d3fdbd18-al-media8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/e7a6f256-d5e9-4af3-a939-ae56e6fbf6d3-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/e7a6f256-d5e9-4af3-a939-ae56e6fbf6d3-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/e7cd6bf7-1978-4812-b6cf-2b9a49d7b615-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/e7cd6bf7-1978-4812-b6cf-2b9a49d7b615-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/elmas1.png",
+      "PackagePath": "staticwebassets/images/elmas1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/elmas2.png",
+      "PackagePath": "staticwebassets/images/elmas2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/emekdasliq1.svg",
+      "PackagePath": "staticwebassets/images/emekdasliq1.svg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/f0502b46-4e6c-4b95-98d2-7f09a093de10-al-media2.png",
+      "PackagePath": "staticwebassets/images/f0502b46-4e6c-4b95-98d2-7f09a093de10-al-media2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/f2c3fed8-c363-477d-a176-c62ec0e68176-2cb121c690.png",
+      "PackagePath": "staticwebassets/images/f2c3fed8-c363-477d-a176-c62ec0e68176-2cb121c690.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/f2e2a621-4942-40b6-a142-03e3279a0046-acilis3.jpg",
+      "PackagePath": "staticwebassets/images/f2e2a621-4942-40b6-a142-03e3279a0046-acilis3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/f5890064-df10-4211-8dcb-3821a6ebb200-acilis1.jpg",
+      "PackagePath": "staticwebassets/images/f5890064-df10-4211-8dcb-3821a6ebb200-acilis1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/f8f51b4d-751a-44a4-a414-6f3b0808ff2d-de91ea996a.png",
+      "PackagePath": "staticwebassets/images/f8f51b4d-751a-44a4-a414-6f3b0808ff2d-de91ea996a.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro1.jpg",
+      "PackagePath": "staticwebassets/images/hitro1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro10.jpg",
+      "PackagePath": "staticwebassets/images/hitro10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro11.jpg",
+      "PackagePath": "staticwebassets/images/hitro11.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro12.jpg",
+      "PackagePath": "staticwebassets/images/hitro12.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro13.jpg",
+      "PackagePath": "staticwebassets/images/hitro13.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro14.jpg",
+      "PackagePath": "staticwebassets/images/hitro14.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro15.jpg",
+      "PackagePath": "staticwebassets/images/hitro15.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro16.jpg",
+      "PackagePath": "staticwebassets/images/hitro16.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro17.jpg",
+      "PackagePath": "staticwebassets/images/hitro17.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro2.jpg",
+      "PackagePath": "staticwebassets/images/hitro2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro3.jpg",
+      "PackagePath": "staticwebassets/images/hitro3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro4.jpg",
+      "PackagePath": "staticwebassets/images/hitro4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro5.jpg",
+      "PackagePath": "staticwebassets/images/hitro5.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro6.jpg",
+      "PackagePath": "staticwebassets/images/hitro6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro7.jpg",
+      "PackagePath": "staticwebassets/images/hitro7.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro8.jpg",
+      "PackagePath": "staticwebassets/images/hitro8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/hitro9.jpg",
+      "PackagePath": "staticwebassets/images/hitro9.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/home-karyera-background.png",
+      "PackagePath": "staticwebassets/images/home-karyera-background.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/horss-energy1.png",
+      "PackagePath": "staticwebassets/images/horss-energy1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/horss-energy2.png",
+      "PackagePath": "staticwebassets/images/horss-energy2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/horss1.jpg",
+      "PackagePath": "staticwebassets/images/horss1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/horss2.jpg",
+      "PackagePath": "staticwebassets/images/horss2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/horss3.jpg",
+      "PackagePath": "staticwebassets/images/horss3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/huquq.png",
+      "PackagePath": "staticwebassets/images/huquq.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/karyera-little.svg",
+      "PackagePath": "staticwebassets/images/karyera-little.svg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/karyera.png",
+      "PackagePath": "staticwebassets/images/karyera.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/karyera1.svg",
+      "PackagePath": "staticwebassets/images/karyera1.svg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/karyera2.svg",
+      "PackagePath": "staticwebassets/images/karyera2.svg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/keremal1.png",
+      "PackagePath": "staticwebassets/images/keremal1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/keremal2.png",
+      "PackagePath": "staticwebassets/images/keremal2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/keremal3.png",
+      "PackagePath": "staticwebassets/images/keremal3.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/keremal4.png",
+      "PackagePath": "staticwebassets/images/keremal4.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/keremal5.png",
+      "PackagePath": "staticwebassets/images/keremal5.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/kimik.png",
+      "PackagePath": "staticwebassets/images/kimik.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/meetbex10.png",
+      "PackagePath": "staticwebassets/images/meetbex10.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex-heading-image.png",
+      "PackagePath": "staticwebassets/images/metbex-heading-image.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex1.png",
+      "PackagePath": "staticwebassets/images/metbex1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex11.png",
+      "PackagePath": "staticwebassets/images/metbex11.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex12.png",
+      "PackagePath": "staticwebassets/images/metbex12.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex13.png",
+      "PackagePath": "staticwebassets/images/metbex13.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex14.png",
+      "PackagePath": "staticwebassets/images/metbex14.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex15.png",
+      "PackagePath": "staticwebassets/images/metbex15.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex16.png",
+      "PackagePath": "staticwebassets/images/metbex16.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex17.png",
+      "PackagePath": "staticwebassets/images/metbex17.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex18.png",
+      "PackagePath": "staticwebassets/images/metbex18.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex19.png",
+      "PackagePath": "staticwebassets/images/metbex19.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex2.jpg",
+      "PackagePath": "staticwebassets/images/metbex2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex20.png",
+      "PackagePath": "staticwebassets/images/metbex20.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex21.png",
+      "PackagePath": "staticwebassets/images/metbex21.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex22.png",
+      "PackagePath": "staticwebassets/images/metbex22.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex23.png",
+      "PackagePath": "staticwebassets/images/metbex23.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex24.jpg",
+      "PackagePath": "staticwebassets/images/metbex24.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex3.png",
+      "PackagePath": "staticwebassets/images/metbex3.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex4.png",
+      "PackagePath": "staticwebassets/images/metbex4.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex5.png",
+      "PackagePath": "staticwebassets/images/metbex5.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex6.png",
+      "PackagePath": "staticwebassets/images/metbex6.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex7.png",
+      "PackagePath": "staticwebassets/images/metbex7.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex8.png",
+      "PackagePath": "staticwebassets/images/metbex8.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/metbex9.png",
+      "PackagePath": "staticwebassets/images/metbex9.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/olentia1.jpg",
+      "PackagePath": "staticwebassets/images/olentia1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/olentia2.jpg",
+      "PackagePath": "staticwebassets/images/olentia2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/olentia3.jpg",
+      "PackagePath": "staticwebassets/images/olentia3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/olentia4.jpg",
+      "PackagePath": "staticwebassets/images/olentia4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/olentia5.jpg",
+      "PackagePath": "staticwebassets/images/olentia5.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/online-muraciet.svg",
+      "PackagePath": "staticwebassets/images/online-muraciet.svg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/pasha1.png",
+      "PackagePath": "staticwebassets/images/pasha1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/pasha2.png",
+      "PackagePath": "staticwebassets/images/pasha2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/pasha3.png",
+      "PackagePath": "staticwebassets/images/pasha3.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/pasha4.png",
+      "PackagePath": "staticwebassets/images/pasha4.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/pasha5.png",
+      "PackagePath": "staticwebassets/images/pasha5.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida.png",
+      "PackagePath": "staticwebassets/images/qeyri-qida.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida1.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida10.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida11.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida11.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida12.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida12.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida13.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida13.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida14.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida14.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida15.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida15.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida16.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida16.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida17.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida17.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida18.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida18.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida19.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida19.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida2.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida3.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida4.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida5.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida5.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida6.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida7.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida7.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida8.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qeyri-qida9.jpg",
+      "PackagePath": "staticwebassets/images/qeyri-qida9.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida.png",
+      "PackagePath": "staticwebassets/images/qida.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida1.jpg",
+      "PackagePath": "staticwebassets/images/qida1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida10.jpg",
+      "PackagePath": "staticwebassets/images/qida10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida11.jpg",
+      "PackagePath": "staticwebassets/images/qida11.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida12.jpg",
+      "PackagePath": "staticwebassets/images/qida12.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida13.jpg",
+      "PackagePath": "staticwebassets/images/qida13.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida14.jpg",
+      "PackagePath": "staticwebassets/images/qida14.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida15.jpg",
+      "PackagePath": "staticwebassets/images/qida15.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida16.jpg",
+      "PackagePath": "staticwebassets/images/qida16.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida17.jpg",
+      "PackagePath": "staticwebassets/images/qida17.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida18.jpg",
+      "PackagePath": "staticwebassets/images/qida18.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida19.jpg",
+      "PackagePath": "staticwebassets/images/qida19.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida2.jpg",
+      "PackagePath": "staticwebassets/images/qida2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida20.jpg",
+      "PackagePath": "staticwebassets/images/qida20.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida5.jpg",
+      "PackagePath": "staticwebassets/images/qida5.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida6.jpg",
+      "PackagePath": "staticwebassets/images/qida6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida7.jpg",
+      "PackagePath": "staticwebassets/images/qida7.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida8.jpg",
+      "PackagePath": "staticwebassets/images/qida8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/qida9.jpg",
+      "PackagePath": "staticwebassets/images/qida9.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta1.jpg",
+      "PackagePath": "staticwebassets/images/sanitta1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta10.jpg",
+      "PackagePath": "staticwebassets/images/sanitta10.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta2.jpg",
+      "PackagePath": "staticwebassets/images/sanitta2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta3.jpg",
+      "PackagePath": "staticwebassets/images/sanitta3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta4.jpg",
+      "PackagePath": "staticwebassets/images/sanitta4.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta5.jpg",
+      "PackagePath": "staticwebassets/images/sanitta5.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta6.jpg",
+      "PackagePath": "staticwebassets/images/sanitta6.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta7.jpg",
+      "PackagePath": "staticwebassets/images/sanitta7.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta8.jpg",
+      "PackagePath": "staticwebassets/images/sanitta8.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sanitta9.jpg",
+      "PackagePath": "staticwebassets/images/sanitta9.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/schocolatte1.png",
+      "PackagePath": "staticwebassets/images/schocolatte1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sef1.png",
+      "PackagePath": "staticwebassets/images/sef1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sef2.png",
+      "PackagePath": "staticwebassets/images/sef2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sefa1.png",
+      "PackagePath": "staticwebassets/images/sefa1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sefa2.png",
+      "PackagePath": "staticwebassets/images/sefa2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sehrizad1.png",
+      "PackagePath": "staticwebassets/images/sehrizad1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sehrizad2.png",
+      "PackagePath": "staticwebassets/images/sehrizad2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sehrizad3.png",
+      "PackagePath": "staticwebassets/images/sehrizad3.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/serfeli1.png",
+      "PackagePath": "staticwebassets/images/serfeli1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/serfeli2.png",
+      "PackagePath": "staticwebassets/images/serfeli2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/serfeli3.png",
+      "PackagePath": "staticwebassets/images/serfeli3.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sevella1.png",
+      "PackagePath": "staticwebassets/images/sevella1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/slide-five.jpg",
+      "PackagePath": "staticwebassets/images/slide-five.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/slide-four.jpg",
+      "PackagePath": "staticwebassets/images/slide-four.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/slide-one.png",
+      "PackagePath": "staticwebassets/images/slide-one.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/slide-six.png",
+      "PackagePath": "staticwebassets/images/slide-six.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/slide-three.jpg",
+      "PackagePath": "staticwebassets/images/slide-three.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/slide-two.jpg",
+      "PackagePath": "staticwebassets/images/slide-two.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor1.png",
+      "PackagePath": "staticwebassets/images/sponsor1.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor10.png",
+      "PackagePath": "staticwebassets/images/sponsor10.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor11.png",
+      "PackagePath": "staticwebassets/images/sponsor11.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor12.png",
+      "PackagePath": "staticwebassets/images/sponsor12.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor13.png",
+      "PackagePath": "staticwebassets/images/sponsor13.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor14.png",
+      "PackagePath": "staticwebassets/images/sponsor14.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor15.png",
+      "PackagePath": "staticwebassets/images/sponsor15.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor16.png",
+      "PackagePath": "staticwebassets/images/sponsor16.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor17.png",
+      "PackagePath": "staticwebassets/images/sponsor17.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor18.png",
+      "PackagePath": "staticwebassets/images/sponsor18.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor19.png",
+      "PackagePath": "staticwebassets/images/sponsor19.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor2.png",
+      "PackagePath": "staticwebassets/images/sponsor2.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor20.png",
+      "PackagePath": "staticwebassets/images/sponsor20.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor3.png",
+      "PackagePath": "staticwebassets/images/sponsor3.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor4.png",
+      "PackagePath": "staticwebassets/images/sponsor4.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor5.png",
+      "PackagePath": "staticwebassets/images/sponsor5.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor6.png",
+      "PackagePath": "staticwebassets/images/sponsor6.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor7.png",
+      "PackagePath": "staticwebassets/images/sponsor7.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor8.png",
+      "PackagePath": "staticwebassets/images/sponsor8.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sponsor9.png",
+      "PackagePath": "staticwebassets/images/sponsor9.png"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sweet1.jpg",
+      "PackagePath": "staticwebassets/images/sweet1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sweet2.jpg",
+      "PackagePath": "staticwebassets/images/sweet2.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/sweet3.jpg",
+      "PackagePath": "staticwebassets/images/sweet3.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/images/vente1.jpg",
+      "PackagePath": "staticwebassets/images/vente1.jpg"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/impact-font/Impacted.ttf",
+      "PackagePath": "staticwebassets/impact-font/Impacted.ttf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/impact-font/impact.ttf",
+      "PackagePath": "staticwebassets/impact-font/impact.ttf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/impact-font/unicode.impact.ttf",
+      "PackagePath": "staticwebassets/impact-font/unicode.impact.ttf"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/js/al-media-etrafli.js",
+      "PackagePath": "staticwebassets/js/al-media-etrafli.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/js/al-media.js",
+      "PackagePath": "staticwebassets/js/al-media.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/js/almetbex.js",
+      "PackagePath": "staticwebassets/js/almetbex.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/js/app.js",
+      "PackagePath": "staticwebassets/js/app.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/js/karyera.js",
+      "PackagePath": "staticwebassets/js/karyera.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/js/kataloq-etrafli.js",
+      "PackagePath": "staticwebassets/js/kataloq-etrafli.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/js/online-muraciet.js",
+      "PackagePath": "staticwebassets/js/online-muraciet.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/js/qeyri-qida.js",
+      "PackagePath": "staticwebassets/js/qeyri-qida.js"
+    },
+    {
+      "Id": "/Users/ali/Projects/AlMarket/AlMarket.MVC/wwwroot/js/qida.js",
+      "PackagePath": "staticwebassets/js/qida.js"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.AlMarket.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.AlMarket.MVC.props",
+      "PackagePath": "build\\AlMarket.MVC.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.AlMarket.MVC.props",
+      "PackagePath": "buildMultiTargeting\\AlMarket.MVC.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.AlMarket.MVC.props",
+      "PackagePath": "buildTransitive\\AlMarket.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

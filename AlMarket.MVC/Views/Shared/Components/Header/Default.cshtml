@@ -1,0 +1,149 @@
+﻿@using AlMarket.DAL.Entities;
+@model Header
+
+    <header>
+
+        <nav id="navs" class="navbar navbar-absolute navbar-expand-lg flex-column">
+            <div class="container">
+                <div class="navbar-main w-100 d-flex  justify-content-between position-relative">
+                    <a asp-controller="home" asp-action="index" class="navbar-brand d-block p-0 m-0">
+                        <img src="@Model.ImageUrl" alt="">
+                    </a>
+                    <button style="font-size: 25px;border: none;z-index: 2;background-color: transparent;" id="test">
+                        <i style="font-size: 30px;
+                        z-index: 3;color: black;" id="menuu" class="fa-solid fa-bars"></i>
+                    </button>
+                    <div id="teest" class="navbar-collapse">
+                        <div class="navbar-nav">
+
+                            <div class="nav-item">
+                                <span id="one" class="nav-link d-flex align-items-center">
+                                    Haqqımızda
+                                </span>
+                                <div id="sub" class="sub-menu">
+                                    <div class="sub-main">
+                                        @foreach (var item in Model.Haqqimizdas)
+                                        {
+                                            <div class="sub-item">
+                                                <a asp-controller="@item.ControllerName" asp-action="index" class="sub-links">
+
+                                                    @item.Description
+
+                                                </a>
+                                            </div>
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav-item">
+                                <a asp-controller="karyera" asp-action="index" class="nav-link d-flex align-items-center">
+                                    Karyera
+                                </a>
+                            </div>
+                            <div class="nav-item">
+                                <span id="three" class="nav-link d-flex align-items-center">
+                                    Xüsusi Təkliflər
+                                </span>
+                                <div id="sub-menu2" class="sub-menu">
+                                    <div class="sub-main">
+                                        @foreach (var item in Model.Tekliflers)
+                                        {
+                                            <div class="sub-item">
+                                                <a asp-controller="@item.ControllerName" asp-action="index" class="sub-links">
+
+                                                    @item.Description
+
+                                                </a>
+                                            </div>
+
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav-item">
+                                <span id="four" class="nav-link d-flex align-items-center">
+                                    Bizimlə Əlaqə
+                                </span>
+                                <div id="sub-menu3" class="sub-menu">
+                                    <div class="sub-main">
+                                        @foreach (var item in Model.Elaqes)
+                                        {
+                                            <div class="sub-item">
+                                                <a asp-controller="@item.ControllerName" asp-action="index" class="sub-links">
+
+                                                    @item.Description
+
+                                                </a>
+                                            </div>
+
+                                        }
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav-item">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <a id="six" class="nav-link d-flex align-items-center" href="">
+                                        @User.Identity.Name
+                                    </a>
+                                    <div id="sub-menu6" class="sub-menu">
+                                        <div style="position:absolute;left:-208px;top:-55px;" class="sub-main">
+                                            <div class="sub-item">
+                                                <a class="sub-links" asp-controller="account" asp-action="register">Register</a>
+                                                <a class="sub-links" asp-controller="account" asp-action="logout">Logout</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <a id="six" class="nav-link d-flex align-items-center" href="">
+                                        Register
+                                    </a>
+                                    <div id="sub-menu6" class="sub-menu">
+                                        <div style="position:absolute;left:-208px;top:-55px;" class="sub-main">
+                                            <div class="sub-item">
+                                                <a class="sub-links" asp-controller="account" asp-action="register">Register</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div style="display:none" class="dropdown lang-down ms-auto">
+                <button  style="margin-right: 100px;margin-top: -73px;border-radius: 16px; background-color: #ececec;padding: 5px 10px;" id="languageButton" type="button" class="btn btn-lang">
+                    <i class="fa-solid fa-globe"></i>
+                    <span>AZ</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <ul id="languagesDropdown" class="dropdown-menu js-down">
+                    <li>
+                        <a class="dropdown-item" href="">
+                            AZ
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="">
+                            EN
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="">
+                            RU
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>

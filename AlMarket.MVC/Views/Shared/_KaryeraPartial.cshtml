@@ -1,0 +1,20 @@
+﻿@using AlMarket.DAL.Entities;
+@model List<Karyera>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 shuffle"
+     style="position: relative; overflow: hidden; height: 288px; transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+    @foreach (var karyer in Model)
+    {
+        <div class="col card-items widget shuffle-item shuffle-item--visible">
+            <a asp-controller="karyera" asp-action="details" asp-route-id="@karyer.Id" class="vakansiya-card card-anime">
+                <p class="kasir card-items__title">@karyer.Heading</p>
+                <p class="text">
+                    @karyer.Description
+                </p>
+                <span class="d-flex align-items-center arrows">
+                    Ətraflı
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </a>
+        </div>
+    }
+</div>

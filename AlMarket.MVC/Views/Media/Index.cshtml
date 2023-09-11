@@ -1,0 +1,65 @@
+﻿@using AlMarket.MVC.ViewModels;
+@{
+    MediaViewModel viewModel = Model;
+
+    var medias = viewModel.Medias;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/al-media.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+    <section class="section-image-full">
+        <div class="al-media-main">
+            <div class="container">
+                <p class="partner-big-text pb-5">
+                    Al media
+                </p>
+                <div class="row g-5">
+                    @*  @foreach (var media in medias)
+                        {
+                            <div class="col-lg-4 col-md-6">
+                                <a asp-controller="almediaetrafli" asp-action="index">
+                                    <img class="al-media-img" src="@media.ImageUrl" alt="">
+                                    <div class="text-body">
+                                        <p id="onee" class="heading">
+                                         @media.Heading
+                                        </p>
+                                        <p class="text">
+                                         @media.Description
+                                        </p>
+                                        <span class="etraflı d-flex align-items-center justify-content-center">
+                                            Ətraflı
+                                        </span>
+                                    </div>
+
+                                </a>
+                            </div>
+                        }
+
+                    *@
+                    <partial name="_MediaPartial" model="@medias"></partial>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <script src="~/js/al-media.js"></script>
+</body>

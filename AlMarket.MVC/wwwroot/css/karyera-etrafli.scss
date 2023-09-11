@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-image-full {
+    padding-top: 150px !important;
+    background-image: url(/images/background.png);
+    object-fit: cover;
+    min-height: 100vh;
+    position: relative;
+    padding: calc(24px + 2.25vw) 0 calc(27px + 3.9375vw);
+
+    .varkansiya-detay-general-main {
+        &::before {
+            content: '';
+            width: 53%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            background-color: #f8f8f8;
+            top: 0px;
+            z-index: -1;
+        }
+
+        .g-0 {
+            --bs-gutter-y: 0;
+            --bs-gutter-x: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .left {
+            h2 {
+                font-size: calc(21.6px + .9vw);
+                font-family: 'Lexend Deca', sans-serif;
+                color: #f50023;
+                margin-bottom: 40px;
+            }
+
+            ul {
+                list-style: none;
+
+                li {
+                    margin-bottom: 20px;
+
+                    .status {
+                        font-family: 'Lexend Deca', sans-serif;
+                        color: #979797;
+                        display: inline-block;
+                        width: 150px;
+                    }
+
+                    .text {
+                        color: #000;
+                        font-family: 'Lexend Deca', sans-serif;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .detay-text {
+                margin-top: calc(21px + 0.5625vw);
+
+                h4 {
+                    font-family: 'Lexend Deca', sans-serif;
+                    color: #979797;
+                    font-size: 18px;
+                    margin-bottom: 18px;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-family: 'Lexend Deca', sans-serif;
+                    line-height: 22px;
+                }
+            }
+
+            .kassir-buttons {
+                border-radius: 30px;
+                border: 1px solid #f50023;
+                background-color: #fff;
+                padding: 15px 25px;
+                font-family: 'Lexend Deca', sans-serif;
+                margin-top: 25px;
+                font-size: 17px;
+                color: #f50023;
+            }
+        }
+
+        .col-lg-5 {
+            margin-left: 100px;
+        }
+
+        .right {
+            a {
+                font-size: 18px;
+                width: fit-content;
+                margin-left: auto;
+
+
+                i {
+                    line-height: 0px;
+                    font-size: 16px !important;
+                    margin-top: 13px;
+                    margin-right: 5px;
+                }
+            }
+
+            .form-main {
+                background-color: #fff;
+                border-radius: 25px;
+                overflow: hidden;
+                margin-top: calc(24.5px + 2.53125vw);
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .varkansiya-detay-general-main {
+        &::before {
+            content: "" !important;
+            width: 0% !important;
+            height: 100% !important;
+            position: absolute !important;
+            left: 0px !important;
+            background-color: #f8f8f8 !important;
+            top: 0px !important;
+            z-index: -1 !important;
+        }
+    }
+}
+
+@media(max-width:576px) {
+    .form-main{
+        img{
+            width: 80%!important;
+        }
+    }
+}

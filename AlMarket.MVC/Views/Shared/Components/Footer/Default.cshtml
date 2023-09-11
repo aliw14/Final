@@ -1,0 +1,81 @@
+﻿@using AlMarket.DAL.Entities;
+@model Footer
+
+<div class="col-lg-4 col-12 mb-5 mb-md-0">
+    <div class="footer-alaqa">
+        <h2 class="mb-4">Yüksək Keyfiyyət Uyğun Qiymət</h2>
+        <ul class="alaqa-list">
+            @foreach (var item in Model.Links)
+            {
+                <li class="mb-3">
+                    <a href="">
+                     @Html.Raw(item.Description)
+                    </a>
+                </li>
+            }
+        </ul>
+        <ul class="social-list d-flex align-items-center mt-4">
+            @foreach (var item in Model.SocialNetworks)
+            {
+                <li class="me-2">
+                    <a href=""
+                       class="d-flex align-items-center justify-content-center">
+                        @Html.Raw(item.Description)
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+<div class="col-lg-7 col-12">
+    <div class="footer-menu-list-main">
+        <h2 class="mb-4">Menu</h2>
+        <ul class="footer-menu-list d-flex flex-column flex-wrap">
+            <li class="mb-4">
+                <a class="footer-links mb-3" href="/index.html">Ana səhifə</a>
+            </li>
+            <li class="mb-4">
+                <span class="footer-links mb-3 d-block">Haqqımızda</span>
+                <ul class="sub-menu-footer">
+                    @foreach (var item in Model.Haqqimizdas)
+                    {
+                        <li>
+                            <a href="">@item.Description</a>
+                        </li>
+                    }
+
+                </ul>
+            </li>
+
+            <li class="mb-4">
+                <span class="footer-links mb-3 d-block">Xüsusi Təkliflər</span>
+                <ul class="sub-menu-footer">
+                    @foreach (var item in Model.Tekliflers)
+                    {
+                        <li>
+                            <a href="">@item.Description</a>
+                        </li>
+                    }
+
+                </ul>
+            </li>
+            <li class="mb-4">
+                <span class="footer-links mb-3 d-block">Bizimlə Əlaqə</span>
+                <ul class="sub-menu-footer">
+                    @foreach (var item in Model.Elaqes)
+                    {
+                        <li>
+                            <a href="">@item.Description</a>
+                        </li>
+                    }
+
+
+                </ul>
+            </li>
+            <li class="mb-4">
+                <a class="footer-links magazine mb-3" href="">Mağazalarımız</a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+/Users/ali/Projects/AlMarket/AlMarket.DAL/bin/Debug/net6.0/AlMarket.DAL.deps.json
+/Users/ali/Projects/AlMarket/AlMarket.DAL/bin/Debug/net6.0/AlMarket.DAL.runtimeconfig.json
+/Users/ali/Projects/AlMarket/AlMarket.DAL/bin/Debug/net6.0/AlMarket.DAL.dll
+/Users/ali/Projects/AlMarket/AlMarket.DAL/bin/Debug/net6.0/AlMarket.DAL.pdb
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/AlMarket.DAL.csproj.AssemblyReference.cache
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/AlMarket.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/AlMarket.DAL.AssemblyInfoInputs.cache
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/AlMarket.DAL.AssemblyInfo.cs
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/AlMarket.DAL.csproj.CoreCompileInputs.cache
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/AlMarket.DAL.dll
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/refint/AlMarket.DAL.dll
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/AlMarket.DAL.pdb
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/AlMarket.DAL.genruntimeconfig.cache
+/Users/ali/Projects/AlMarket/AlMarket.DAL/obj/Debug/net6.0/ref/AlMarket.DAL.dll

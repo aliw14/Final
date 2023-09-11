@@ -1,0 +1,70 @@
+﻿@using AlMarket.DAL.Entities;
+@model Karyera
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/karyera-etrafli.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+
+    <section class="section-image-full varkansiya-detay-section">
+        <div class="varkansiya-detay-general-main">
+            <div class="container">
+                <div class="varkansiya-detay-main">
+                    <div class="row g-0">
+                        <div class="col-lg-6 col-12">
+                            <div class="left">
+                                <h2>@Model.Heading</h2>
+                                <ul class="detay-list">
+                                    <li>
+                                        <span class="status">Elan tarixi:</span>
+                                        <span class="text">
+                                            14 iyul 2022
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div class="detay-text">
+                                    <h4>Əlavə məlumat:</h4>
+                                    <p>Yaş həddi 18 üzəri</p>
+                                    <p>Təhsil orta</p>
+                                    <p>@Model.Description</p>
+
+                                </div>
+                                <a asp-controller="online" asp-action="index" class="btn kassir-buttons">
+                                    Online müraciət
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-12">
+                            <div class="right aos-init aos-animate">
+                                <a asp-controller="karyera" asp-action="index" class="btn btn-prevs d-flex">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                    Geri
+                                </a>
+                                <div class="form-main">
+                                    <img src="~/images/karyera.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+

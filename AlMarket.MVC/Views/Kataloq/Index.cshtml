@@ -1,0 +1,62 @@
+﻿@using AlMarket.MVC.ViewModels;
+@{
+    HomeViewModel viewModel = Model;
+
+    var catalog = viewModel.Catalogs;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/kataloq.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/al-media.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+
+    <section class="section-image-full">
+        <div class="container">
+            <div class="katalog-main">
+                <div class="partner-text-main mb-3 mb-md-5">
+                    <div class="heading mb-3">
+                        Kataloqlar
+                    </div>
+                    <div class="text">
+                        Al market'lərdə hər evə gərəkli, müxtəlif çeşidli, seçilmiş məhsullara Super Fürsətlər! Aldınsa,
+                        Aldın❗
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 list-kataloq p-3 p-md-0">
+                    @foreach (var catalogs in catalog)
+                    {
+                        <div class="col widget">
+                            <a href="">
+                                <img src="~/images/@catalogs.ImageUrl" alt="">
+                                <div class="overlay">
+                                    <div class="content">
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+

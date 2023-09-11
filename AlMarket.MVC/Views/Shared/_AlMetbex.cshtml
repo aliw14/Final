@@ -1,0 +1,24 @@
+﻿@using AlMarket.DAL.Entities;
+@model List<Food>
+<div class="metbex-card-main pt-3 px-4 px-md-0">
+    <div id="grid" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-4 g-5 mb-5 shuffle">
+        @foreach (var foods in Model)
+        {
+            <div id="@foods.Id" class="col-lg-3">
+                <a asp-controller="almetbex" asp-action="details" asp-route-id="@foods.Id" class="metbex-card d-block card-anime">
+                    <img src="@foods.ImageUrl" alt="">
+                    <div class="body-text">
+                        <p class="text card-items__title">
+                            @foods.Name
+                        </p>
+                        <span class="arrow d-flex align-items-center mt-4">
+                            <span class="arrow-text ms-2">
+                                Ətraflı
+                            </span>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>

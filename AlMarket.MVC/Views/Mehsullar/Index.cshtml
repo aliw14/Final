@@ -1,0 +1,56 @@
+﻿@using AlMarket.MVC.ViewModels;
+@{
+    MehsularViewModel viewModel = Model;
+
+    var brands = viewModel.Brands;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/mehsullar.css">
+    <link rel="stylesheet" href="~/css/almetbex.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+
+    <section class="section-image-full">
+        @*
+            <div class="container">
+                <div class="partner-text-main mb-4">
+                    <p class="heading mb-2 mb-lg-5">Öz məhsullarımız</p>
+                </div>
+                <div class="pl-mahsullar-main">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                            @foreach (var brand in brands)
+                             {
+                                <div class="col widget">
+                                    <a asp-controller="mehsullaretrafli" asp-action="index" class="pl-mahsul-card d-flex align-items-center justify-content-center card-anime">
+                                        <img src="@brand.ImageUrl" alt="">
+                                        <span class="arrow d-flex align-items-center justify-content-center">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                             }
+                    </div>
+                </div>
+            </div>
+        *@
+        <partial name="_MehsullarPartial" model="@brands"></partial>
+
+    </section>
+</body>

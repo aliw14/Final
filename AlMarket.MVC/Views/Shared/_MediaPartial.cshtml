@@ -1,0 +1,23 @@
+﻿@using AlMarket.DAL.Entities;
+@model List<Media>
+@foreach (var media in Model)
+{
+    <div class="col-lg-4 col-md-6">
+        <a asp-controller="Media" asp-action="Details" asp-route-id="@media.Id">
+            <img class="al-media-img" src="images/@media.ImageUrl" alt="">
+            <div class="text-body">
+                <p id="onee" class="heading">
+                    @media.Heading
+                </p>
+                <p class="text">
+                    @media.Description
+                </p>
+                <span class="etraflı d-flex align-items-center justify-content-center">
+                    Ətraflı
+                </span>
+            </div>
+
+        </a>
+    </div>
+}
+

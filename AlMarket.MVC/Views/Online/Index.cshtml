@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/online-muraciet.css">
+    <link rel="stylesheet" href="~/css/al-media-etrafli.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+
+    <section class="section-image-full section-online-muracat">
+        <div class="muracat-main">
+            <div class="heading-body">
+                <div class="container">
+                    <div class="d-flex flex-column flex-md-row align-items-start justify-content-between">
+                        <div class="partner-text-main">
+                            <p class="heading mb-3">
+                                Online müraciət
+                            </p>
+                            <p class="text">
+                                Minlərlə əməkdaşı ilə günü-gündən böyüyən ailənizin marketi - “Al Market” mağazalar
+                                şəbəkəsinə karyerasını “Al Market” -də qurmaq istəyən, yaşı 18-dən yuxarı şəxslər elə
+                                indi bizə Online müraciət edə bilər.
+                            </p>
+                        </div>
+                        <a asp-controller="karyera" asp-action="index" class="btn btn-prevs d-flex align-items-center p-0 mt-3 mt-md-0 ms-auto ms-lg-0">
+                            <i class="fa-solid fa-arrow-left"></i>
+                            Geri
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="muracat-form-main">
+                <div class="container">
+                    <h5 class="text-center">
+                        Şəxsi məlumatlar
+                    </h5>
+                    <form class="row" action="">
+                        <div class="col-12 row form-main">
+                            <div class="col-md-4">
+                                <div class="form-box mb-5">
+                                    <select class="form-select" name="Position" id="Position">
+                                        <option selected>
+                                            Vəzifə
+                                        </option>
+                                        <option value="Satıcı-kassir">Satıcı-kassir</option>
+                                        <option value="Fəhlə(Qaradağ,Sumqayıt və Dərnəgül depoları)">
+                                            Fəhlə(Qaradağ,Sumqayıt və Dərnəgül depoları)
+                                        </option>
+                                        <option value="Mağaza müdir-müavini">Mağaza müdir-müavini</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-box mb-5">
+                                    <select name="Region" id="Region">
+                                        <option selected>
+                                            İşləmək istədiyi bölgə
+                                        </option>
+                                        <option value="Abseron">Abseron</option>
+                                        <option value="Agcabedi">Agcabedi</option>
+                                        <option value="Agdam">Agdam</option>
+                                        <option value="Agdas">Agdas</option>
+                                        <option value="Agstafa">Agstafa</option>
+                                        <option value="Agsu">Agsu</option>
+                                        <option value="Astara">Astara</option>
+                                        <option value="Balaken">Balaken</option>
+                                        <option value="Berde">Berde</option>
+                                        <option value="Beyleqan">Beyleqan</option>
+                                        <option value="Bilesuvar">Bilesuvar</option>
+                                        <option value="Bineqedi">Bineqedi</option>
+                                        <option value="Celilabad">Celilabad</option>
+                                        <option value="Daskesen">Daskesen</option>
+                                        <option value="Fuzuli">Fuzuli</option>
+                                        <option value="Gedebey">Gedebey</option>
+                                        <option value="Gence">Gence</option>
+                                        <option value="Goranboy">Goranboy</option>
+                                        <option value="Goycay">Goycay</option>
+                                        <option value="Goygol">Goygol</option>
+                                        <option value="Haciqabul">Haciqabul</option>
+                                        <option value="Imisli">Imisli</option>
+                                        <option value="Ismayilli">Ismayilli</option>
+                                        <option value="Kurdemir">Kurdemir</option>
+                                        <option value="Lenkeran">Lenkeran</option>
+                                        <option value="Masalli">Masalli</option>
+                                        <option value="Mingecevir">Mingecevir</option>
+                                        <option value="Neftcala">Neftcala</option>
+                                        <option value="Nerimanov">Nerimanov</option>
+                                        <option value="Nesimi">Nesimi</option>
+                                        <option value="Nizami">Nizami</option>
+                                        <option value="Pirallahi">Pirallahi</option>
+                                        <option value="Qaradag">Qaradag</option>
+                                        <option value="Qazax">Qazax</option>
+                                        <option value="Qebele">Qebele</option>
+                                        <option value="Qobustan">Qobustan</option>
+                                        <option value="Quba">Quba</option>
+                                        <option value="Qusar">Qusar</option>
+                                        <option value="Saatli">Saatli</option>
+                                        <option value="Sabirabad">Sabirabad</option>
+                                        <option value="Sabran">Sabran</option>
+                                        <option value="Sabuncu">Sabuncu</option>
+                                        <option value="Salyan">Salyan</option>
+                                        <option value="Samaxi">Samaxi</option>
+                                        <option value="Samux">Samux</option>
+                                        <option value="Sebail">Sebail</option>
+                                        <option value="Seki">Seki</option>
+                                        <option value="Semkir">Semkir</option>
+                                        <option value="Sirvan">Sirvan</option>
+                                        <option value="Siyezen">Siyezen</option>
+                                        <option value="Sumqayit">Sumqayit</option>
+                                        <option value="Suraxani">Suraxani</option>
+                                        <option value="Ter-Ter">Ter-Ter</option>
+                                        <option value="Tovuz">Tovuz</option>
+                                        <option value="Ucar">Ucar</option>
+                                        <option value="Xacmaz">Xacmaz</option>
+                                        <option value="Xetai">Xetai</option>
+                                        <option value="Xezer">Xezer</option>
+                                        <option value="Yasamal">Yasamal</option>
+                                        <option value="Yevlax">Yevlax</option>
+                                        <option value="Zaqatala">Zaqatala</option>
+                                        <option value="Zengilan">Zengilan</option>
+                                        <option value="Zerdab">Zerdab</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-box mb-5">
+                                    <select name="Town" id="Town">
+                                        <option selected>
+                                            İşləmək istədiyi ərazisi
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div id="mediaa" class="form-box mb-5">
+                                    <input class="form-control" placeholder="Yaşadığınız unvan" type="text" id="Adress"
+                                           name="Adress">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-box mb-5">
+                                    <input class="form-control" placeholder="Adınız" type="text" id="FirstName"
+                                           name="FirstName">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-box mb-5">
+                                    <input class="form-control" placeholder="Soyadınız" type="text" id="LastName"
+                                           name="LastName">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-box mb-5">
+                                    <input class="form-control" placeholder="Ata adınız" type="text" id="FatherName"
+                                           name="FatherName">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-box mb-5">
+                                            <select class="form-select form-sends" name="PhoneCode" id="PhoneCode">
+                                                <option value="010">010</option>
+                                                <option value="050">050</option>
+                                                <option value="051">051</option>
+                                                <option value="055">055</option>
+                                                <option value="070">070</option>
+                                                <option value="077">077</option>
+                                                <option value="099">099</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-box mb-5">
+                                            <input class="form-control" class="form-control"
+                                                   placeholder="Telefon nömrəsi" type="number" name="Phone" id="Phone">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="test" class="col-md-6">
+                                <div class="form-box mb-5">
+                                    <input class="form-control" placeholder="E-mail adresiniz" type="email" name="Email"
+                                           id="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-box mb-5">
+                                    <input class="form-control" type="text" placeholder="Doğum tarixi"
+                                           class="form-control" type="text" name="BirthDate" id="BirthDate">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-box mb-5">
+                                    <select class="form-select form-sends" name="Gender" id="Gender">
+                                        <option selected>Cinsiyyət</option>
+                                        <option value="Kişi">Kişi</option>
+                                        <option value="Qadın">Qadın</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-box mb-5">
+                                    <select class="form-select form-sends" name="MaritalStatus" id="MaritalStatus">
+                                        <option selected>Aile Veziyyeti</option>
+                                        <option value="Evli">Evli</option>
+                                        <option value="Subay">Subay</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class=" col-12 col-lg-9">
+                                    <div class="row form-box mb-5 align-items-center">
+                                        <span class="col-md-8 check-text">Azərsunda daha öncə iş təcrübəniz olub?</span>
+                                        <div class="col-md-4 d-flex align-items-center mt-3 mt-md-0">
+                                            <div class="form-check d-flex align-items-center me-4">
+                                                <input type="radio" id="AzersunYes" name="IsAzersun">
+                                                <label class="form-check-label" for="AzersunYes">
+                                                    Bəli
+                                                </label>
+                                            </div>
+                                            <div class="form-check d-flex align-items-center me-4">
+                                                <input type="radio" id="AzersunNo" name="IsAzersun">
+                                                <label class="form-check-label" for="AzersunNo">
+                                                    Xeyr
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-12 col-lg-8">
+                                    <div class="row form-box mb-5 align-items-center">
+                                        <span class="col-md-4 check-text">İş qrafiki</span>
+                                        <div class="col-md-7 d-flex align-items-center mt-3 mt-lg-0">
+                                            <div class="form-check d-flex align-items-center me-4">
+                                                <input type="radio" name="IsWorking" id="WorkingYes">
+                                                <label for="WorkingYes">Tam ştat</label>
+                                            </div>
+                                            <div class="form-check d-flex align-items-center">
+                                                <input type="radio" name="IsWorking" id="WorkingNo">
+                                                <label for="WorkingNo">Yarım ştat</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-gender">
+                                <div class="col-12">
+                                    <div class="row form-box mb-4 align-items-center">
+                                        <span class="col-md-7 check-text">Hərbi xidmətdə olmusunuz?</span>
+                                        <div class="col-md-4 d-flex align-items-center mt-3 mt-lg-0">
+                                            <div class="form-check d-flex align-items-center me-4">
+                                                <input type="radio" name="IsArmy" id="ArmyYes">
+                                                <label for="ArmyYes">Bəli</label>
+                                            </div>
+                                            <div class="form-check d-flex align-items-center">
+                                                <input type="radio" name="IsArmy" id="ArmyNo">
+                                                <label for="ArmyNo">Xeyr</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-gender">
+                                <div class="col-12">
+                                    <div class="row form-box mb-4 align-items-center">
+                                        <span class="col-md-7 check-text">Hərbi biletiniz varmı?</span>
+                                        <div class="col-md-4 d-flex align-items-center mt-3 mt-lg-0">
+                                            <div class="form-check d-flex align-items-center me-4">
+                                                <input type="radio" name="IsArmys" id="ArmysYes">
+                                                <label for="ArmysYes">Bəli</label>
+                                            </div>
+                                            <div class="form-check d-flex align-items-center">
+                                                <input type="radio" name="IsArmys" id="ArmysNo">
+                                                <label for="ArmysNo">Xeyr</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-4">
+                                <p class="heading-main text-center mb-5">Təhsil</p>
+                            </div>
+                            <div class="col-md-12 partner-form-box">
+                                <div class="tahsil-main">
+                                    <div class="col-md-12 box-tahsil">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <select class="form-select form-sends"
+                                                            name="Educations[0].DegreeofEducation"
+                                                            id="Educations_0__DegreeofEducation">
+                                                        <option selected>Təhsil dərəcəsi</option>
+                                                        <option value="Natamam orta">Natamam orta</option>
+                                                        <option value="Orta">Orta</option>
+                                                        <option value="Orta İxtisas">Orta İxtisas</option>
+                                                        <option value="Ali(Bakalavr)">Ali(Bakalavr)</option>
+                                                        <option value="Ali(Magistr)">Ali(Magistr)</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <input class="form-control" placeholder="Təhsil aldığı yer"
+                                                           name="Educations[0].DegreeofEducation"
+                                                           id="Educations_0__DegreeofEducation" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <input placeholder="İl" class="form-control"
+                                                           name="Educations[0].DegreeofEducation"
+                                                           id="Educations_0__DegreeofEducation" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <input placeholder="Peşə, fakultə" class="form-control"
+                                                           name="Educations[0].DegreeofEducation"
+                                                           id="Educations_0__DegreeofEducation" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+                                <div id="add-tahsil" style="display: none;" class="tahsil-main add-tahsill">
+                                    <div class="col-md-12 box-tahsil">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <select class="form-select form-sends"
+                                                            name="Educations[0].DegreeofEducation"
+                                                            id="Educations_0__DegreeofEducation">
+                                                        <option selected>Təhsil dərəcəsi</option>
+                                                        <option value="Natamam orta">Natamam orta</option>
+                                                        <option value="Orta">Orta</option>
+                                                        <option value="Orta İxtisas">Orta İxtisas</option>
+                                                        <option value="Ali(Bakalavr)">Ali(Bakalavr)</option>
+                                                        <option value="Ali(Magistr)">Ali(Magistr)</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <input class="form-control" placeholder="Təhsil aldığı yer"
+                                                           name="Educations[0].DegreeofEducation"
+                                                           id="Educations_0__DegreeofEducation" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <input placeholder="İl" class="form-control"
+                                                           name="Educations[0].DegreeofEducation"
+                                                           id="Educations_0__DegreeofEducation" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <input placeholder="Peşə, fakultə" class="form-control"
+                                                           name="Educations[0].DegreeofEducation"
+                                                           id="Educations_0__DegreeofEducation" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <span style="cursor: pointer;" onclick="toggleAddTahsil()" class="d-block ms-auto text-end add-tahsil mb-5">
+                                    Yeni təhsil məlumatı əlavə et
+                                </span>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="heading-main text-center mb-5">İş təcrübəsi</p>
+                            </div>
+                            <div class="col-md-12 partner-form-box">
+                                <div class="tecrube-main">
+                                    <div class="col-md-12 box-tecrube  position-relative">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <input class="form-control" placeholder="İşlədiyiniz yer"
+                                                           id="Works_0__WWork" name="Works[0].WWork" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-box mb-5">
+                                                    <input class="form-control" placeholder="İşlədiyiniz vəzifə"
+                                                           id="Works_0__Position" name="Works[0].Position" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-box mb-5">
+                                                    <select class="form-select form-sends" name="Works[0].IsWorking"
+                                                            id="Works_0__IsWorking">
+                                                        <option selected>Hal-hazırda işləyirsiniz?</option>
+                                                        <option value="Hə">Hə</option>
+                                                        <option value="Yox">Yox</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div id="Başlama" class="row col-md-4 px-3 gx-1">
+                                                <div class="col-md-6">
+                                                    <div class="form-box mb-5 pe-3">
+                                                        <input type="text" class="form-control" placeholder="Başlama"
+                                                               name="" id="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-box mb-5 pe-3">
+                                                        <input type="text" class="form-control" placeholder="Çıxış"
+                                                               name="" id="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-box mb-5">
+                                                    <input class="form-control" placeholder="İşdən ayrılma səbəbi"
+                                                           id="Works_0__Region" name="Works[0].Region" type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                  
+
+                        </div>
+                        <div class="col-4 mx-auto mt-5">
+                            <button id="submitBtn" type="submit" class="btn btn-submit-style w-100 position-relative">
+                                <span>Göndər</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="~/js/online-muraciet.js"></script>
+</body>

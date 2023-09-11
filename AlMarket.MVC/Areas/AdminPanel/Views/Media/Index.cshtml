@@ -1,0 +1,42 @@
+﻿@model List<Media>
+<div class="col-lg-6 grid-margin stretch-card">
+    <div style="min-width:190%" class="card">
+        <div class="card-body">
+            <h4 class="card-title">Medias </h4>
+            <p class="card-description">
+                Add class <code>.table</code>
+            </p>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Images</th>
+                            <th>Heading</th>
+                            <th>Description</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><img style="border-radius:0;width:130px;height:160px;" src="~/images/@item.ImageUrl"></td>
+                                <td>@item.Heading</td>
+                                <td>@Html.Raw(@item.Description)</td>
+                                <td>
+                                    <a style="margin:10px 0" class="btn btn-success" asp-action="details" asp-route-id="@item.Id">Details</a>
+                                    <form asp-action="delete" method="post">
+                                        <input name="id" value="@item.Id" type="hidden" />
+                                        <button style="margin:10px 0" type="submit" class="btn btn-danger" asp-action="delete" asp-route-id="@item.Id">Delete</button>
+                                    </form>
+                                    <a style="margin:10px 0" class="btn btn-warning" asp-action="update" asp-route-id="@item.Id">Update</a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

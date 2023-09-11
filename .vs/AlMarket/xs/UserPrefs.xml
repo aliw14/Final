@@ -1,0 +1,149 @@
+﻿<Properties StartupConfiguration="{C66A9A7A-A444-47BD-997E-F28BD14FD846}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlMarket.MVC/Views/Karyera/Index.cshtml">
+    <Files>
+      <File FileName="AlMarket.MVC/Views/Kataloq/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Huquq/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Account/Login.cshtml" />
+      <File FileName="AlMarket.MVC/ViewModels/LoginViewModel.cs" Line="1" Column="1" />
+      <File FileName="AlMarket.MVC/ViewModels/MediaViewModel.cs" />
+      <File FileName="AlMarket.MVC/Views/Account/AccessDenied.cshtml" />
+      <File FileName="AlMarket.MVC/Data/DataInitializer.cs" />
+      <File FileName="AlMarket.MVC/Data/RoleConstants.cs" />
+      <File FileName="AlMarket.DAL/Entities/TestEntity.cs" />
+      <File FileName="AlMarket.MVC/Migrations/20230904200736_TestAutoMigration1.cs" />
+      <File FileName="AlMarket.MVC/Migrations/20230904200644_TestAutoMigration.cs" />
+      <File FileName="AlMarket.MVC/Views/Account/ChangePassword.cshtml" />
+      <File FileName="AlMarket.MVC/ViewModels/ChangePasswordViewModel.cs" />
+      <File FileName="AlMarket.MVC/Views/Karyera/Index.cshtml" Line="64" Column="27" />
+      <File FileName="AlMarket.MVC/Views/Media/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Shared/Components/Header/Default.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Home/Index.cshtml" Line="47" Column="18" />
+      <File FileName="AlMarket.MVC/Views/Shared/_Layout.cshtml" Line="20" Column="18" />
+      <File FileName="AlMarket.MVC/Services/IMailService.cs" />
+      <File FileName="AlMarket.MVC/Data/RequestEmail.cs" />
+      <File FileName="AlMarket.MVC/appsettings.json" Line="1" Column="1" />
+      <File FileName="AlMarket.MVC/Services/GmailManager.cs" Line="1" Column="1" />
+      <File FileName="AlMarket.MVC/Program.cs" Line="56" Column="45" />
+      <File FileName="AlMarket.MVC/Data/MailSetting.cs" />
+      <File FileName="AlMarket.MVC/Controllers/HomeController.cs" Line="28" Column="51" />
+      <File FileName="AlMarket.DAL/Entities/Brand.cs" />
+      <File FileName="AlMarket.DAL/Entities/Haqqimizda.cs" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Controllers/MediaController.cs" />
+      <File FileName="AlMarket.DAL/Entities/Media.cs" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Data/Constants.cs" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Media/Update.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Media/Create.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Media/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Data/FileExtensions.cs" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Media/Details.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Qida/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Shared/_MediaPartial.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Shared/_QidaPartial.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Qida/Create.cshtml" />
+      <File FileName="AlMarket.MVC/Controllers/QidaController.cs" />
+      <File FileName="AlMarket.MVC/Views/Media/Details.cshtml" Line="60" Column="52" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Qida/Details.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Qida/Update.cshtml" />
+      <File FileName="AlMarket.DAL/Entities/Qida.cs" />
+      <File FileName="AlMarket.DAL/Entities/Market.cs" />
+      <File FileName="AlMarket.MVC/Views/Qida/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/QeyriQida/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Online/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Mehsullar/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Mehsullar/Details.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Karyera/Details.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Ekskluziv/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/BizeYazin/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/AlMetbex/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Views/AlMetbex/Details.cshtml" />
+      <File FileName="AlMarket.MVC/wwwroot/js/karyera.js" />
+      <File FileName="AlMarket.MVC/wwwroot/js/al-media.js" />
+      <File FileName="AlMarket.DAL/Entities/Header.cs" />
+      <File FileName="AlMarket.MVC/ViewComponents/HeaderViewComponent.cs" />
+      <File FileName="AlMarket.DAL/Entities/Navbar.cs" />
+      <File FileName="AlMarket.DAL/Entities/Elaqe.cs" />
+      <File FileName="AlMarket.MVC/Views/Shared/_AlMetbex.cshtml" />
+      <File FileName="AlMarket.MVC/wwwroot/js/qida.js" />
+      <File FileName="AlMarket.MVC/wwwroot/js/qeyri-qida.js" />
+      <File FileName="AlMarket.MVC/Views/Shared/_KaryeraPartial.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Shared/_MehsullarPartial.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Shared/_QeyriQidaPartial.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Shared/_SearchedFood.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Shared/_SearchedWork.cshtml" />
+      <File FileName="AlMarket.MVC/Views/_ViewImports.cshtml" />
+      <File FileName="AlMarket.MVC/Views/_ViewStart.cshtml" />
+      <File FileName="AlMarket.MVC/wwwroot/js/almetbex.js" />
+      <File FileName="AlMarket.MVC/Views/Shared/Components/Footer/Default.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Shared/_CkeEditorPartial.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Controllers/QidaController.cs" />
+      <File FileName="AlMarket.DAL/DataContext/AppDbContext.cs" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/_ViewStart.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Controllers/CatalogeController.cs" />
+      <File FileName="AlMarket.DAL/Entities/Catalog.cs" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Controllers/DashboardController.cs" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Cataloge/Create.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Cataloge/Details.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Cataloge/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Cataloge/Update.cshtml" />
+      <File FileName="AlMarket.MVC/wwwroot/js/app.js" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Controllers/AdminController.cs" />
+      <File FileName="AlMarket.MVC/Data/LocalizeIdentityError.cs" />
+      <File FileName="AlMarket.DAL/Entities/Teklifler.cs" />
+      <File FileName="AlMarket.MVC/ViewComponents/FooterViewComponent.cs" />
+      <File FileName="AlMarket.DAL/Entities/Footer.cs" />
+      <File FileName="AlMarket.MVC/Controllers/KimikController.cs" />
+      <File FileName="AlMarket.MVC/Views/Kimik/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Controllers/OnlineController.cs" />
+      <File FileName="AlMarket.MVC/ViewModels/MehsullarEtrafliViewModel.cs" />
+      <File FileName="AlMarket.DAL/Entities/Product.cs" />
+      <File FileName="AlMarket.MVC/Controllers/MehsullarController.cs" />
+      <File FileName="AlMarket.MVC/Controllers/MehsullarEtrafliController.cs" />
+      <File FileName="AlMarket.MVC/Controllers/AlMediaEtrafliController.cs" />
+      <File FileName="AlMarket.MVC/ViewModels/MehsularViewModel.cs" />
+      <File FileName="AlMarket.MVC/Controllers/HuquqController.cs" />
+      <File FileName="AlMarket.MVC/Controllers/AccountController.cs" Line="189" Column="1" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Controllers/BrandController.cs" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Brand/Create.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Brand/Details.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Brand/Index.cshtml" />
+      <File FileName="AlMarket.MVC/Areas/AdminPanel/Views/Brand/Update.cshtml" />
+      <File FileName="AlMarket.MVC/Views/Account/Register.cshtml" Line="1" Column="1" />
+      <File FileName="AlMarket.MVC/wwwroot/css/online-muraciet.scss" />
+      <File FileName="AlMarket.MVC/wwwroot/css/online-muraciet.css.map" />
+      <File FileName="AlMarket.MVC/wwwroot/Admin/css/style.css" />
+      <File FileName="AlMarket.MVC/wwwroot/css/style.scss" />
+      <File FileName="AlMarket.MVC/ViewModels/RegisterViewModel.cs" Line="1" Column="1" />
+      <File FileName="AlMarket.MVC/ViewModels/AlMetbexViewModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlMarket" expanded="True">
+            <Node name="AlMarket.MVC" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Karyera" expanded="True" />
+                <Node name="Kataloq" expanded="True" />
+                <Node name="Media" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AlMarket.MVC PreferredExecutionTarget="/Users/ali/Desktop/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="AlMarket" Name="AlMarket" />
+  </MultiItemStartupConfigurations>
+</Properties>

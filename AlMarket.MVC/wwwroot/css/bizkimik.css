@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kimik-section {
+  padding-top: 150px !important;
+}
+
+header .navbar-nav .nav-item span {
+  color: #7B7B7B !important;
+}
+header .navbar-nav .nav-item a {
+  color: #7B7B7B !important;
+}
+
+.kimik-main {
+  background-image: url(/images/kimik.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: calc(21px + 0.5625vw) 0;
+}
+.kimik-main h1 {
+  font-weight: 700;
+}
+.kimik-main p {
+  width: 70%;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+@media (max-width: 576px) {
+  .kimik-main p {
+    width: 100%;
+    font-size: 21px;
+  }
+  .menubar {
+    display: block !important;
+  }
+  .menubar i {
+    font-size: 27px !important;
+    display: block !important;
+    color: black !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .menubar i {
+    font-size: 27px !important;
+    display: block !important;
+    color: black !important;
+  }
+  .navbar-nav .nav-link {
+    color: white !important;
+  }
+  #test {
+    display: block !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .menubar {
+    display: block !important;
+  }
+  .menubar i {
+    font-size: 27px !important;
+    display: block !important;
+    color: black !important;
+  }
+  .kimik-main p {
+    width: 100% !important;
+  }
+}/*# sourceMappingURL=bizkimik.css.map */

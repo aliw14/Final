@@ -1,0 +1,59 @@
+﻿@using AlMarket.DAL.Entities;
+@model List<AlMarket.DAL.Entities.Product>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/mehsullar-etrafli.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+
+    <section class="section-background">
+        <div class="background-image"></div>
+        <div class="container">
+            <div class="pl-mahsul-detay-top">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xl-6 col-xxl-4">
+                        <div class="left d-flex align-items-center">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" pl-mahsul-detay-alt">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 g-5 px-5 px-md-0 mt-0 mt-md-5">
+                    @foreach (var product in Model)
+                    {
+                        <div class="col widget">
+                            <a class="partner-card d-block ekslusiv-card card-anime" href="">
+                                <div class="partner-body">
+                                    <img class="partner-image" src="@product.ImageUrl" alt="">
+                                    <div class="text">
+                                        @product.Description
+                                    </div>
+                                    <div class="backgrounds">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

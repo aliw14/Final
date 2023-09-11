@@ -1,0 +1,239 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.section-online-muracat {
+  padding-top: 0px;
+  position: relative;
+  padding: calc(24px + 2.25vw) 0 calc(27px + 3.9375vw);
+  background-image: url(/images/background.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 100vh;
+}
+.section-online-muracat .heading-body {
+  background-color: #f8f8f8;
+  padding: calc(22px + 1.125vw);
+}
+.section-online-muracat .heading-body .partner-text-main {
+  width: 40%;
+}
+.section-online-muracat .heading-body .partner-text-main .heading {
+  font-size: calc(21.6px + 0.9vw);
+  color: #f50023;
+}
+.section-online-muracat .heading-body .partner-text-main .text {
+  font-size: 18px;
+  color: #000000;
+  line-height: 22px;
+}
+.section-online-muracat .heading-body .btn-prevs {
+  font-size: 18px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.section-online-muracat .heading-body .btn-prevs i {
+  margin-right: 15px;
+}
+.section-online-muracat .heading-body .btn-prevs:hover {
+  color: #f50023;
+}
+.section-online-muracat .muracat-form-main {
+  padding: calc(22px + 1.125vw) 0;
+}
+.section-online-muracat .muracat-form-main h5 {
+  font-size: calc(20.4px + 0.225vw);
+}
+.section-online-muracat .muracat-form-main .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.section-online-muracat .muracat-form-main .form-main {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  background-color: #fff;
+  padding: calc(22px + 1.125vw) calc(22px + 1.125vw) calc(21px + 0.5625vw);
+}
+.section-online-muracat .muracat-form-main .form-main .form-box {
+  z-index: 1;
+  position: relative;
+}
+.section-online-muracat .muracat-form-main .form-main .form-box select {
+  width: 100%;
+  color: #c0c0c0 !important;
+  height: 50px;
+  border-radius: 30px !important;
+  border: 1px solid #d8d8d8 !important;
+  background-color: #fff !important;
+  padding-left: 30px;
+  font-size: 18px !important;
+  cursor: pointer;
+  background-position: right 1.75rem center;
+  background-size: 19px 21px;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-image: url(/images/online-muraciet.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.section-online-muracat .muracat-form-main .form-main .form-box .form-control {
+  height: 50px;
+  border-radius: 25px !important;
+  border: 1px solid #d8d8d8;
+  color: #c0c0c0 !important;
+  padding-left: 30px;
+  font-size: 18px;
+  display: block;
+}
+.section-online-muracat .muracat-form-main .form-main .form-box .form-control::-moz-placeholder {
+  color: #c0c0c0;
+}
+.section-online-muracat .muracat-form-main .form-main .form-box .form-control::placeholder {
+  color: #c0c0c0;
+}
+.section-online-muracat .muracat-form-main .form-main .form-box .check-text {
+  font-size: 18px;
+}
+.section-online-muracat .muracat-form-main .form-main .form-box .form-check {
+  width: 50%;
+  min-height: 1.5rem;
+  padding-left: 1.5em;
+  margin-bottom: 0.125rem rem;
+}
+.section-online-muracat .muracat-form-main .form-main .form-box .form-check input {
+  margin-top: 0px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.section-online-muracat .muracat-form-main .form-main .form-box .form-check label {
+  cursor: pointer;
+  font-size: 18px;
+}
+.section-online-muracat .form-label-files {
+  cursor: pointer;
+  color: #c0c0c0 !important;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #d8d8d8;
+  color: #000;
+  padding-left: 30px;
+}
+.section-online-muracat .form-label-files i {
+  font-size: 25px;
+}
+.section-online-muracat .form-label-files:hover {
+  color: #f50023 !important;
+  border: 1px solid #f50023;
+  transition: 0.4s;
+}
+.section-online-muracat .btn-submit-style {
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #f50023;
+  color: #f50023;
+  font-size: 17px;
+}
+.section-online-muracat .btn-submit-style:hover {
+  color: white;
+  border: 1px solid #f50023;
+  background-color: #f50023;
+  transition: 0.4s;
+}
+
+#test {
+  margin-top: 38px;
+}
+
+#Başlama {
+  margin-block: auto;
+}
+
+.heading-main {
+  font-size: calc(20.4px + 0.225vw);
+  color: #000000;
+}
+
+.add-tahsil {
+  color: #000;
+  font-size: 18px;
+  padding-right: 6px;
+}
+
+@media (max-width: 576px) {
+  .section-online-muracat .heading-body .partner-text-main .heading {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .section-online-muracat .heading-body .partner-text-main .text {
+    font-size: 15px;
+    width: 238%;
+  }
+  .form-control {
+    width: 100% !important;
+  }
+  #mediaa {
+    width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .abone-create p {
+    width: 105% !important;
+  }
+  .muracat-form-main .row {
+    --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0 !important;
+  }
+  .partner-text-main .text {
+    width: 150% !important;
+  }
+  .form-box {
+    width: 80% !important;
+  }
+  .form-box label {
+    width: 118% !important;
+  }
+  #Adress {
+    width: 118% !important;
+  }
+  #Email {
+    margin-top: -34px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .partner-text-main {
+    width: 100% !important;
+  }
+  .partner-text-main .text {
+    width: 59% !important;
+  }
+}/*# sourceMappingURL=online-muraciet.css.map */

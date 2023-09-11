@@ -1,0 +1,21 @@
+﻿@using AlMarket.DAL.Entities;
+@model List<QeyriQida>
+<div class=" pl-mahsul-detay-alt">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 g-5 px-5 px-md-0 mt-0 mt-md-5">
+        @foreach (var item in Model)
+        {
+            <div class="col widget">
+                <a class="partner-card d-block ekslusiv-card card-anime" href="">
+                    <div class="partner-body">
+                        <img class="partner-image" src="@item.ImageUrl" alt="">
+                        <div class="text">
+                            @item.Description
+                        </div>
+                        <div class="backgrounds">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    @RenderBody()
+    <footer>
+        <div class="abone-create">
+            <div class="container">
+                <div class="row align-items-center create-main p-3 p-md-0">
+                    <div class="col-12 col-md-4 col-lg-6 mb-3 mb-md-0">
+                        <p style="color: white;" class="abone-text">
+                            Kampaniyalardan xəbərdar olmaq üçün abunə olun
+                        </p>
+                    </div>
+                    <div class="col-10 col-md-6 col-lg-4 offset-md-2">
+                        <form>
+                            <div class="input-group">
+                                <input class="form-control" placeholder="E-poçt ünvanınız" type="text">
+                                <button type="submit" class="btn btn-abone">
+                                    <span>Abunə ol</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="container">
+                <div class="row footer-info-main">
+                    <div class="col-lg-1 col-12 mb-3 mb-md-0">
+                        <img class="footer-logo mx-auto mx-md-0 d-block" src="~/images/al-logo.png" alt="">
+                    </div>
+                    @await Component.InvokeAsync("Footer")
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script asp-append-version="true" src="~/js/app.js"></script>
+
+</body>
+
+</html>

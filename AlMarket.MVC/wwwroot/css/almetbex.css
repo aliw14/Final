@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.al-metbex-header-section {
+  padding-top: 150px !important;
+}
+
+.metbex-partner-heading {
+  height: 463px;
+  overflow: hidden;
+}
+.metbex-partner-heading::before {
+  content: "";
+  background-color: rgba(84, 0, 12, 0.5);
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.metbex-partner-heading img {
+  width: 100%;
+  height: 100%;
+  animation: kenburns-top 5s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+.metbex-partner-heading .heading-text {
+  z-index: 2;
+  transform: translate(-50%, -50%) !important;
+}
+.metbex-partner-heading .heading-text .heading {
+  color: #fff !important;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: calc(21.6px + 0.9vw);
+  animation: fade-in-top 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.metbex-partner-heading .heading-text .text {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.section-background {
+  min-height: 100vh;
+  position: relative;
+  padding: calc(24px + 2.25vw) 0 calc(27px + 3.9375vw);
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown .btn-partner {
+  width: 100%;
+  height: 60px;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 30px;
+  border: 1px solid #d8d8d8;
+  color: #000000;
+  font-size: 18px;
+  background-color: #fff;
+}
+.dropdown .btn-partner:hover {
+  color: #f50023;
+  border: 1px solid #f50023;
+}
+.dropdown #opened {
+  display: none;
+}
+.dropdown #opened li {
+  cursor: pointer;
+  font-family: "Lexend Deca", sans-serif;
+  color: #7B7B7B;
+  font-size: 18px;
+}
+.dropdown #opened li:hover {
+  color: #f50023;
+}
+
+.partner-dropdown .dropdown-menu {
+  max-height: 235px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 100%;
+  overflow: auto;
+}
+
+.al-metbex-search-main .metbex-search-input {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+  width: 100%;
+  padding-left: 40px;
+}
+.al-metbex-search-main .metbex-search-input::-moz-placeholder {
+  color: #c0c0c0;
+}
+.al-metbex-search-main .metbex-search-input::placeholder {
+  color: #c0c0c0;
+}
+.al-metbex-search-main .btn-search {
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #f50023;
+  background-color: #fff;
+  width: 100%;
+}
+.al-metbex-search-main .btn-search i {
+  color: #f50023;
+  font-size: 22px;
+}
+.al-metbex-search-main .btn-search:hover {
+  background-color: #f50023;
+}
+.al-metbex-search-main .btn-search:hover i {
+  color: white;
+}
+
+#grid {
+  position: relative;
+  overflow: hidden;
+  height: 2448px;
+  transition: height 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+#grid .metbex-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#grid .metbex-card img {
+  width: 100%;
+  height: 208px;
+  border-radius: 20px;
+  background-color: #c4c4c4;
+}
+#grid .metbex-card .body-text {
+  padding: 20px;
+}
+#grid .metbex-card .body-text .text {
+  font-size: 18px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #000000;
+  line-height: 22px;
+  min-height: 49px;
+  font-weight: 800;
+}
+#grid .metbex-card .body-text .arrow {
+  border: 1px solid #000;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 7px;
+  border-radius: 10px;
+}
+#grid .metbex-card .body-text .arrow .arrow-text {
+  font-size: 15px;
+  color: #000000;
+  font-family: "Lexend Deca", sans-serif;
+  margin-left: 0px !important;
+}
+#grid .metbex-card:hover .arrow {
+  transition: 0.4s;
+  border: 1px solid #f50023;
+  background-color: #f50023;
+}
+#grid .metbex-card:hover .arrow-text {
+  color: white !important;
+}
+
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mexbex-partner-heading {
+    overflow: hidden;
+  }
+  .mexbex-partner-heading::before {
+    content: "";
+    background-color: rgba(84, 0, 12, 0.5);
+    width: 100%;
+    height: 73%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 149px;
+    z-index: 1;
+  }
+  .mexbex-partner-heading .heading-text {
+    z-index: 2;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mexbex-partner-heading {
+    overflow: hidden;
+  }
+  .mexbex-partner-heading::before {
+    content: "";
+    background-color: rgba(84, 0, 12, 0.5);
+    width: 100%;
+    height: 73%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 149px;
+    z-index: 1;
+  }
+  .mexbex-partner-heading .heading-text {
+    z-index: 2;
+    margin-top: 55px;
+  }
+  .menubar {
+    display: block !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .mexbex-partner-heading {
+    overflow: hidden;
+  }
+  .mexbex-partner-heading::before {
+    content: "";
+    background-color: rgba(84, 0, 12, 0.5);
+    width: 100%;
+    height: 73%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 149px;
+    z-index: 1;
+  }
+  .mexbex-partner-heading .heading-text {
+    z-index: 2;
+    margin-top: 55px;
+  }
+}/*# sourceMappingURL=almetbex.css.map */

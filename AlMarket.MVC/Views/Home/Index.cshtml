@@ -1,0 +1,114 @@
+﻿@using AlMarket.MVC.ViewModels;
+@{
+    HomeViewModel viewModel = Model;
+
+    var SliderImages = viewModel.SliderImages;
+
+    var brands = viewModel.Brands;
+
+    var catalog = viewModel.Catalogs;
+}
+@await Component.InvokeAsync("Header")
+
+<section class="home-slider-section p-0 mb-5">
+    <div class="navigation-gruops d-flex align-items-center">
+        <button id="firstt" onclick="goPrev1()"
+                class="btn btn-ktlog-prevv me-3 d-flex align-items-center justify-content-center swiper-button-disabled swiper-button-lock">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button id="seccond" onclick="goNext1()"
+                class="btn btn-ktlog-nextt me-3 d-flex align-items-center justify-content-center swiper-button-disabled swiper-button-lock">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </div>
+    <div class="swiper home-header-slider swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden">
+        <div class="swiper-wrapper">
+            @foreach (var slider in SliderImages)
+            {
+                <div class="swiper-slide">
+                    <img class="slider-image thumbnail" src="@slider.ImageUrl" alt="">
+                </div>
+            }
+            <div class="swiper-slide swiper-slide-visible swiper-slide-active">
+                <img class="slider-image thumbnail" src="~/images/slide-one.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section  class="section-background home-alt-section pt-0 element josh-js">
+    <div class="background-image"></div>
+    <div class="partner-slider katalog-sliders-main">
+        <div class="heading">
+            <div class="container">
+                <div class="heading-main py-3 d-flex align-items-center justify-content-between">
+                    <p>Kataloqlar</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="swiper home-katalog-slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                <div class="swiper-wrapper">
+                    @foreach (var catalogs in catalog)
+                    {
+                        <div class="swiper-slide widget">
+                            <a class="d-block" href="">
+                                <img src="~/images/@catalogs.ImageUrl" alt="">
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partner-slider pllogo-sliders-main">
+        <div class="heading">
+            <div class="container">
+                <div class="heading-main py-3 d-flex align-items-center justify-content-between">
+                    <p>Öz məhsullarımız</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="swiper home-pl-logo-slider swiper-initialized swiper-horizontal swiper-pointer-events">
+                <div class="swiper-wrapper">
+                    @foreach (var brand in brands)
+                    {
+                        <div class="swiper-slide d-block">
+                            <img src="~/images/@brand.ImageUrl" alt="">
+                        </div>
+                    }
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="karyera-general-main">
+        <div class="container-fluid p-0">
+            <div class="karyera-main">
+                <div class="karyera-body">
+                    <div class="left">
+                        <img src="~/images/karyera.png" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="big-text d-flex align-items-start">
+                            <img src="~/images/karyera-little.svg" alt="">
+                            <div class="big-text-right">
+                                <p>
+                                    <strong>Bizimlə işləmək istəyirsinizmi?</strong>
+                                </p>
+                                <span class="pt-4 d-block">
+                                    Gəlin birlikdə böyüyək
+                                </span>
+                                <a asp-controller="karyera" asp-action="index" class="btn btn-karyera d-flex align-items-center justify-content-center">Karyera</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

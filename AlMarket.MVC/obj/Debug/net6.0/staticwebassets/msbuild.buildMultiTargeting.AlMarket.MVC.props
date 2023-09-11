@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/AlMarket.MVC.props" />
+</Project>

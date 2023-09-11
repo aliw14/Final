@@ -1,0 +1,166 @@
+﻿@using AlMarket.DAL.Entities;
+@model BizeYazin
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/bizeyazin.css">
+    <link rel="stylesheet" href="~/css/kataloq-etrafli.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/al-media.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+
+    <section class="section-image-full contact-section">
+        <div class="container">
+            <div class="contact-main">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-5 mb-5 mb-md-0">
+                        <div class="left">
+                            <div class="partner-text-main w-100 mb-5">
+                                <p class="heading mb-3">
+                                    @Model.Heading
+                                </p>
+                                <p class="text">
+                                    @Model.Description
+                                </p>
+                            </div>
+                            <ul class="alaqa-list">
+                                <li class="mb-3">
+                                    <a href="tel:+994 12 404 19 40">
+                                        <i class="fa-solid fa-phone me-2"></i>
+                                        <span>
+                                            +994 12 404 19 40
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="https://wa.me/055 204 75 75">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <span>
+                                            055 204 75 75
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="tel:055 204 75 75">
+                                        <i class="fa-solid fa-mobile-screen-button"></i>
+                                        <span>
+                                            055 204 75 75
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="mailto:info@almarket.az">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <span>
+                                            info@almarket.az
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="http://maps.google.com/?q=Həsən Seyidbəyli küç., 122 a AZ 1001, “Gümüş Plaza”">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>
+                                            Həsən Seyidbəyli küç., 122 a AZ 1001, “Gümüş Plaza”
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="social-list d-flex align-items-center mt-4">
+                                <li class="me-2">
+                                    <a href="https://www.facebook.com/almarketler">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="https://www.instagram.com/almarketler">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="https://www.linkedin.com/company/19250549/admin/">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="https://youtube.com/c/ALMarketler">
+                                        <i class="fa-brands fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="https://wa.me/055 204 75 75">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li class="me-2">
+                                    <a href="https://t.me/almarketler">
+                                        <i class="fa-brands fa-telegram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-5 offset-xl-2">
+                        <div class="right  ms-lg-5">
+                            <div class="p-4 multiple-forms">
+                                <form class="form-change-main form-emeklasdik">
+                                    <div class="form-box mb-4">
+                                        <select class="form-select select-multiples valid"
+                                                name="Cooperation.MainSubject" id="Cooperation_MainSubject">
+                                            <option selected value="Sorğu">Sorğu</option>
+                                            <option value="Şikayət">Şikayət</option>
+                                            <option value="Diğer">Diğer</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-box mb-4">
+                                        <select class="form-select form-append" name="Cooperation.Subject"
+                                                id="Cooperation_Subject">
+                                            <option selected value="Xidmət Haqqında">Xidmət Haqqında</option>
+                                            <option value="Məhsul Haqqında">Məhsul Haqqında</option>
+                                            <option value="Ünvanlarımız">Ünvanlarımız</option>
+                                            <option value="Qiymət">Qiymət</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-box mb-4 aos-init aos-animate">
+                                        <input type="text" class="form-control" placeholder="Adınız Soyadınız *">
+                                    </div>
+                                    <div class="form-box mb-4 aos-init aos-animate">
+                                        <input type="text" class="form-control" placeholder="Əlaqə nömrəsi *">
+                                    </div>
+                                    <div class="form-box mb-4 aos-init aos-animate">
+                                        <textarea class="form-control area" placeholder="Əlavəniz" name="" id=""
+                                                  cols="30" rows="10"></textarea>
+                                    </div>
+                                    <div class="form-box">
+                                        <button type="submit" class="btn btn-submit-style w-100 position-relative">
+                                            <span>Göndər</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="maps mt-5 mt-md-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.8796910134038!2d49.82629331539437!3d40.36719192937097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dc8d1694b03%3A0xa13b6bb817e2540a!2sGumush%20Residence!5e0!3m2!1str!2s!4v1652386278313!5m2!1str!2s"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</body>

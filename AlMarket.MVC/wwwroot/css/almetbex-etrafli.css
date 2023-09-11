@@ -1,0 +1,197 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.al-metbex-header-section {
+  padding-top: 150px !important;
+}
+
+section {
+  position: relative;
+}
+section .mexbex-partner-heading {
+  height: 463px;
+  overflow: hidden;
+}
+section .mexbex-partner-heading img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  animation: kenburns-top 5s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+section .mexbex-partner-heading .heading-text {
+  position: absolute !important;
+  top: 62% !important;
+}
+section .mexbex-partner-heading .heading-text .heading {
+  color: #fff;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: calc(21.6px + 0.9vw);
+  animation: fade-in-top 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+section .mexbex-partner-heading::before {
+  content: "";
+  background-color: rgba(84, 0, 12, 0.5);
+  width: 100%;
+  height: 76%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 149px;
+  z-index: 1;
+}
+section .tarkıbı-main {
+  position: relative;
+}
+section .tarkıbı-main::before {
+  content: "";
+  background-color: #f8f8f8;
+  width: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 412px;
+  z-index: -1;
+}
+section .tarkıbı-main .left {
+  position: relative;
+  top: -63px;
+}
+section .tarkıbı-main .left .metbex-big-slider {
+  border-radius: 20px;
+}
+section .tarkıbı-main .left .metbex-big-slider .swiper-slide {
+  width: 624px;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 0ms;
+}
+section .tarkıbı-main .left .metbex-big-slider .swiper-slide img {
+  width: 100%;
+  border-radius: 20px;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .tarkıbı-main .left .metbex-big-slider .swiper-slide::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 52%, rgba(0, 0, 0, 0.3) 100%);
+}
+section .tarkıbı-main .left .swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+section .tarkıbı-main .left .swiper .swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+section .tarkıbı-main .right {
+  position: relative;
+  padding-right: calc(22.5px + 1.40625vw);
+}
+section .tarkıbı-main .right .heading {
+  font-size: calc(20.4px + 0.225vw);
+  font-weight: 800;
+}
+section .tarkıbı-main .right p {
+  line-height: 2px;
+}
+section .tarkıbı-main .right p strong {
+  font-weight: bolder;
+}
+section .hazirlanma-gaydasi .headings {
+  font-size: calc(20.4px + 0.225vw);
+}
+section .hazirlanma-gaydasi p {
+  border-radius: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  padding: 40px 25px;
+}
+
+.al-metbex-detail-section .hazırlanma-gaydası .headings {
+  font-size: calc(20.4px + 0.225vw);
+  font-family: "Lexend Deca", sans-serif;
+}
+.al-metbex-detail-section .hazırlanma-gaydası p {
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Lexend Deca", sans-serif;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 40px 25px;
+}
+
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  header .navbar .navbar-main .lang-down .btn-lang {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .mexbex-partner-heading::before {
+    content: "";
+    background-color: rgba(84, 0, 12, 0.5);
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  .mexbex-partner-heading .heading-text {
+    z-index: 2;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .mexbex-partner-heading::before {
+    content: "";
+    background-color: rgba(84, 0, 12, 0.5);
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  .mexbex-partner-heading .heading-text {
+    z-index: 2;
+  }
+}/*# sourceMappingURL=almetbex-etrafli.css.map */

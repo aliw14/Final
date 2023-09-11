@@ -1,0 +1,22 @@
+﻿@model List<AlMarket.DAL.Entities.Brand>
+
+<div class="container">
+    <div class="partner-text-main mb-4">
+        <p class="heading mb-2 mb-lg-5">Öz məhsullarımız</p>
+    </div>
+    <div class="pl-mahsullar-main">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            @foreach (var brand in Model)
+            {
+                <div class="col widget">
+                    <a asp-controller="Mehsullar" asp-action="Details" asp-route-id="@brand.Id" class="pl-mahsul-card d-flex align-items-center justify-content-center card-anime">
+                        <img src="~/images/@brand.ImageUrl" alt="">
+                        <span class="arrow d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>

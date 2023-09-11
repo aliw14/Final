@@ -1,0 +1,98 @@
+﻿@using AlMarket.MVC.ViewModels;
+@{
+    AlMetbexViewModel viewModel = Model;
+
+    var foods = viewModel.Foods;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/almetbex.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+
+    <section class="al-metbex-header-section p-0">
+        <div class="mexbex-partner-heading text-center">
+            <img src="~/images/metbex-heading-image.png" alt="">
+            <div class="heading-text translate-middle position-absolute top-50 start-50 col-11 col-md-9 col-lg-7 col-xl-5 col-xxl-4">
+                <h4 style="color: white;" class="heading mb-3">
+                    AL mətbəx
+                </h4>
+                <p style="color: white;font-size: 18px;" class="text">
+                    “Yüksək keyfiyyət, uyğun qiymət” sloqanını əsas tutan “Al Market”lər ailənizin ehtiyacları üçün
+                    minlərlə məhsulla xidmətinizdədir. Bizdə “Al Market”-də müştərilərimizə təqdim etdiyimiz ərzaqlarla
+                    sizə “Al Mətbəximizdə” yerli və xarici mətbəxə məxsus yemeklər, şirniyyatlar təqdim edirik.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-background al-metbex-main-section">
+        <div class="background-image"></div>
+        <div class="container">
+            <div class="al-metbex-search-main mb-5 px-4 px-md-0">
+                <div class="row g-3 g-lg-5">
+                  
+                    <div class="col-12 col-md-6 col-lg-5 col-xl-6">
+                        <ul style="padding-top:0rem!important" id="searchedFood" class="list-unstyled py-3">
+                            <li style="padding-top:0rem!important" class="d-flex py-3">
+
+                                <input id="input-search" type="search" class="form-control metbex-search-input js-shuffle-search"
+                                       placeholder="Axtarış" name="">
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-7 col-md-6 mx-auto mx-lg-0 col-lg-3 col-xl-3">
+                        <button class="btn btn-search d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            @* <div class="metbex-card-main pt-3 px-4 px-md-0">
+                    <div id="grid"
+                         class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-4 g-5 mb-5 shuffle">
+                        @foreach (var foods in Model)
+                        {
+                            <div class="col-lg-3">
+                                <a asp-controller="almetbexetrafli" asp-action="index" asp-route-id="@foods.Id" class="metbex-card d-block card-anime">
+                                    <img src="~/images/metbex1.png" alt="">
+                                    <div class="body-text">
+                                        <p class="text card-items__title">
+                                            @foods.Name
+                                        </p>
+                                        <span class="arrow d-flex align-items-center mt-4">
+                                            <span class="arrow-text ms-2">
+                                                Ətraflı
+                                            </span>
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            *@
+            <partial name="_AlMetbex" model="@foods"></partial>
+
+        </div>
+    </section>
+    <script asp-append-version="true" src="~/js/almetbex.js"></script>
+</body>

@@ -1,0 +1,143 @@
+﻿@using AlMarket.DAL.Entities;
+@model Media
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap.css">
+    <link rel="stylesheet" href="~/css/al-media-etrafli.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/bizkimik.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    @await Component.InvokeAsync("Header")
+    <section class="section-image-full">
+        <div class="al-media-detay-general">
+            <div class="container">
+                <div class="al-media-detay-main">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <div class="left-main">
+                                <div class="swiper al-media-detail-slider swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="~/images/@Model.ImageUrl" alt=""
+                                                 class="al-market-usaqlarin-beynelxalq-mudafiesi-gunu-munasibetile-korporativ-sosial-mesuliyyet-tedbiri-teskil-edib">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="al-media-detay-text">
+                                    <span class="date my-3 d-block">
+                                        01 iyn. 2023
+                                    </span>
+                                    <p class="heading mb-4">
+                                        @Model.Heading
+                                    </p>
+                                    <p>
+                                        @Model.Description
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <p class="other-text mb-4">
+                                Digər
+                            </p>
+                            <div class="row flex-column">
+                                <div class="col mb-4">
+
+                                    <a asp-controller="Media" asp-action="Details" asp-route-id="@Model.Id" class="al-media-card position-relative d-block">
+                                        <img src="~/images/3c571de9-660c-4d3a-bd0f-eaaf996e159e-al-media2.png" alt="">
+                                        <div class="text-body">
+                                            <p id="first" class="heading">
+                                                “AL Market” Uşaqların Beynəlxalq Müdafiəsi Günü münasibətilə Korporativ
+                                                Sosial Məsuliyyət tədbiri təşkil edib
+                                            </p>
+                                            <p class="text">
+                                                Uşaqların Beynəlxalq Müdafiəsi Günündə uşaqlar üçün tədbirlər təşkil
+                                                olunub.
+                                                “AL Market” tərəfdaşı olduğu Əmək və Əhalinin Sosial Müdafiəsi
+                                                Nazirliyinin tabeliyində Dövlət Məşğulluq Agentliyinin Bakı Regional
+                                                Məşğulluq filialı ilə birlikdə 1 İyun - Uşaqların Beynəlxalq Müdafiəsi
+                                                Günü münasibətilə Korporativ Sosial Məsuliyyət tədbiri təşkil edib.
+                                                Bakıda keçirilən tədbirdə “AL Market” MMC , Bakı Regional Məşğulluq
+                                                filialı, “McDonald’s Azərbaycan” QSC və Hədəf şirkətlər qrupunun
+                                                nümayəndələri “Ümid yeri” uşaq sığınacağını ziyarət edib. Burada
+                                                uşaqlarla müxtəlif oyunlar oynanılıb, rəqs nömrələri, əyləncəli şou
+                                                proqramlar təşkil olunub. Tədbirin sonunda uşaqlara “AL Market”
+                                                mağazalarında satılan müxtəlif yerli və qlobal markaların məhsulları
+                                                hədiyyə olunub. “Ümid yeri” uşaq sığınacağına müxtəlif zəruri təmizlik
+                                                vasitələri təqdim edilib.
+                                            </p>
+                                            <span class="etraflı d-flex align-items-center justify-content-center">
+                                                Ətraflı
+                                            </span>
+                                        </div>
+                                        <span class="date-media d-flex align-items-center justify-content-center">
+                                            01 iyn. 2023
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col mb-4">
+                                    <a asp-controller="Media" asp-action="Details" asp-route-id="@Model.Id" class="al-media-card position-relative d-block">
+                                        <img src="~/images/al-media3.png" alt="">
+                                        <div class="text-body">
+                                            <p class="heading">
+                                                "AL Market" ƏƏSMN tərəfindən təltif edilib
+                                            </p>
+                                            <p class="text">
+                                                Əmək və Əhalinin Sosial Müdafiə Nazirliyi tərəfindən həssas qruplara
+                                                dəstək məqsədli korporativ sosial məsuliyyət tədbirlərində, onlarla
+                                                bağlı məşğulluq proqramlarının icrasında aktiv iştirak edən sosial
+                                                tərəfdaşların mükafatlandırılma mərasimi keçirilib.
+                                            </p>
+                                            <span class="etraflı d-flex align-items-center justify-content-center">
+                                                Ətraflı
+                                            </span>
+                                        </div>
+                                        <span class="date-media d-flex align-items-center justify-content-center">
+                                            01 iyn. 2023
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col mb-4">
+                                    <a asp-controller="Media" asp-action="Details" asp-route-id="@Model.Id" class="al-media-card position-relative d-block">
+                                        <img src="~/images/al-media4.jpg" alt="">
+                                        <div class="text-body">
+                                            <p id="second" class="heading">
+                                                Zəfərdən sonra 30 ildir öz yurdundan didərgin düşən Zəngilanlıların bir
+                                                qrupu evlərinə qayıdış etdi.
+                                            </p>
+                                            <p class="text">
+                                                “AL Market” mağazalar şəbəkəsi möhtəşəm qayıdışdan sonra qürur hissi ilə
+                                                yeni filialını Zəngilanın Ağalı kəndində açdı.
+                                            </p>
+                                            <span class="etraflı d-flex align-items-center justify-content-center">
+                                                Ətraflı
+                                            </span>
+                                        </div>
+                                        <span class="date-media d-flex align-items-center justify-content-center">
+                                            01 iyn. 2023
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="~/js/al-media.js"></script>
+    <script src="~/js/al-media-etrafli.js"></script>
+</body>

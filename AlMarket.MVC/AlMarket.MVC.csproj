@@ -1,0 +1,135 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>9397acb5-f682-4d1f-ae8c-2a6284d8df56</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AlMarket.DAL\AlMarket.DAL.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Views\" />
+    <None Remove="Models\" />
+    <None Remove="Properties\" />
+    <None Remove="Views\Shared\" />
+    <None Remove="Views\Home\" />
+    <None Remove="Controllers\" />
+    <None Remove="Views\Media\" />
+    <None Remove="Views\Huquq\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\Mehsullar\" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+    <None Remove="Views\AlMetbex\" />
+    <None Remove="Views\Karyera\" />
+    <None Remove="Views\Kataloq\" />
+    <None Remove="Views\Ekskluziv\" />
+    <None Remove="Views\Qida\" />
+    <None Remove="Views\QeyriQida\" />
+    <None Remove="Views\Online\" />
+    <None Remove="Views\BizeYazin\" />
+    <None Remove="Views\Shared\Components\Header\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\AdminPanel\" />
+    <None Remove="Areas\AdminPanel\Models\" />
+    <None Remove="Areas\AdminPanel\Views\" />
+    <None Remove="Areas\AdminPanel\Controllers\" />
+    <None Remove="Areas\AdminPanel\Data\" />
+    <None Remove="Areas\AdminPanel\Views\Shared\" />
+    <None Remove="Areas\AdminPanel\Views\Dashboard\" />
+    <None Remove="Areas\AdminPanel\Views\Media\" />
+    <None Remove="Areas\AdminPanel\Views\Qida\" />
+    <None Remove="Microsoft.AspNetCore.Http" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Views\Account\" />
+    <None Remove="Data\" />
+    <None Remove="Services\" />
+    <None Remove="MimeKit" />
+    <None Remove="MailKit" />
+    <None Remove="Areas\AdminPanel\Views\Cataloge\" />
+    <None Remove="Areas\AdminPanel\Views\Brand\" />
+    <None Remove="Microsoft.AspNetCore.Authentication.Google" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="MimeKit" Version="4.2.0" />
+    <PackageReference Include="MailKit" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="6.0.21" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\impact-font\" />
+    <Folder Include="Views\" />
+    <Folder Include="Models\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\Media\" />
+    <Folder Include="Views\Huquq\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\Mehsullar\" />
+    <Folder Include="Views\AlMetbex\" />
+    <Folder Include="Views\Karyera\" />
+    <Folder Include="Views\Kataloq\" />
+    <Folder Include="Views\Ekskluziv\" />
+    <Folder Include="Views\Qida\" />
+    <Folder Include="Views\QeyriQida\" />
+    <Folder Include="Views\Online\" />
+    <Folder Include="Views\BizeYazin\" />
+    <Folder Include="Views\Shared\Components\Header\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\AdminPanel\" />
+    <Folder Include="Areas\AdminPanel\Models\" />
+    <Folder Include="Areas\AdminPanel\Views\" />
+    <Folder Include="Areas\AdminPanel\Controllers\" />
+    <Folder Include="Areas\AdminPanel\Data\" />
+    <Folder Include="Areas\AdminPanel\Views\Shared\" />
+    <Folder Include="Areas\AdminPanel\Views\Dashboard\" />
+    <Folder Include="wwwroot\Admin\" />
+    <Folder Include="wwwroot\Admin\css\" />
+    <Folder Include="wwwroot\Admin\fonts\" />
+    <Folder Include="wwwroot\Admin\images\" />
+    <Folder Include="wwwroot\Admin\js\" />
+    <Folder Include="wwwroot\Admin\vendors\" />
+    <Folder Include="Areas\AdminPanel\Views\Media\" />
+    <Folder Include="Areas\AdminPanel\Views\Qida\" />
+    <Folder Include="Areas\AdminPanel\Data\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Data\" />
+    <Folder Include="Services\" />
+    <Folder Include="Areas\AdminPanel\Views\Cataloge\" />
+    <Folder Include="Areas\AdminPanel\Views\Brand\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\impact-font\" />
+    <Content Remove="wwwroot\js\" />
+    <Content Remove="wwwroot\Admin\" />
+    <Content Remove="wwwroot\Admin\css\" />
+    <Content Remove="wwwroot\Admin\fonts\" />
+    <Content Remove="wwwroot\Admin\images\" />
+    <Content Remove="wwwroot\Admin\js\" />
+    <Content Remove="wwwroot\Admin\vendors\" />
+  </ItemGroup>
+</Project>
